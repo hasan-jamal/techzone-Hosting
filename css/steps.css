@@ -1,0 +1,1061 @@
+/* Steps Section */
+.steps-section{
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.steps-section .fx-steps-section{
+    gap: 16px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.steps-section .fx-steps-section .fx-step{
+    gap: 20px;
+}
+.steps-section .fx-steps-section .fx-step .number-step{
+    border-radius: 6px;
+    background: #F2F2F2;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 11px 14.3px 11px 14.28px;
+    justify-content: center;
+    align-items: center;
+}
+.steps-section .fx-steps-section .fx-step .number-step span{
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+}
+.steps-section .fx-steps-section .fx-step p{
+    color: #5D596C;
+    font-size: 22px;
+}
+.steps-section .fx-steps-section .fx-step.active .number-step{ background: #CB1F49;}
+.steps-section .fx-steps-section .fx-step.active .number-step span{color: #fff;}
+.steps-section .fx-steps-section .fx-step.active p{color: #090B21;font-weight: 800;}
+.data-steps .step-content .form-domain{
+    width: 100%;
+    border-radius: 10px;
+    background: #FFFAF8;
+    padding: 40px 39px 23px 39px;
+}
+.data-steps .step-content .form-domain h2{
+    color: #090B21;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.data-steps .step-content .form-domain .fx-domain{gap: 20px;width: 100%;}
+.data-steps .step-content .form-domain .fx-domain input{
+   border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: #090B21;
+    font-size: 22px;
+    border: none;
+}
+.data-steps .step-content .form-domain .fx-domain form{
+    width: 90%;
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid #1D1D1B;
+    background: rgba(190, 190, 190, 0.09);
+    height: 70px;
+}
+.data-steps .step-content .form-domain .fx-domain form button{
+    border-radius: 30px;
+    background:  #913276;
+    height: 100%;
+    width: 170px;
+    font-size: 18px;
+    color: #fff;
+}
+.data-steps .step-content .form-domain .fx-domain .btn-red{
+    width: 177px;
+    height: 70px;
+    gap: 10px;
+    font-size: 18px;
+}
+/* Step One Style */
+.boxs-stepOne {gap: 30px;margin-top: 30px;}
+.boxs-stepOne .browse-extensions{
+   width: 35%;
+}
+.boxs-stepOne .box-browse-extensions{
+    border-radius: 10px;
+    background: #FFFAF8;
+   padding: 20px;
+}
+.boxs-stepOne .box-browse-extensions .list-browse-extensions{gap:16px;}
+.boxs-stepOne .browse-extensions h2{
+    color: #090B21;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 34px;
+}
+.boxs-stepOne .browse-extensions .item-browse-extensions{
+    width: 100%;
+    border-bottom: 0.5px solid #000;
+    padding: 11px 0;
+}
+.boxs-stepOne .browse-extensions .item-browse-extensions p,
+.boxs-stepOne .browse-extensions .item-browse-extensions span{
+    color: #090B21;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.boxs-stepOne .browse-extensions .item-red{
+    border-bottom: 1px solid var(--Color3, #CB1F49);
+}
+.boxs-stepOne .browse-extensions .item-red p,
+.boxs-stepOne .browse-extensions .item-red span{
+    color: #CB1F49;
+}
+#btnContinue{
+   width: 100%;
+   height: 70px;
+   margin-top: 30px;
+   gap: 21px;
+} 
+#btnContinue span{
+    font-size: 25px;
+}
+#btnContinue img{width:20px;}
+.boxs-stepOne .domians-links{width: 65%;}
+.boxs-stepOne .box-domians-links{
+    border-radius: 10px;
+    background: #FFFAF8;
+    padding: 35px 30px;
+}
+.boxs-stepOne .box-domians-links .fx-linkBox{
+        border-bottom: 0.5px solid #000;
+    padding:24px 5px ;
+    width: 100%;
+    align-items: center;
+}
+.boxs-stepOne .box-domians-links .fx-linkBox p{
+    color: #090B21;
+    font-size: 19px;
+    line-height: 24px;
+}
+.boxs-stepOne .box-domians-links .fx-linkBox .fx-btns-domian{gap: 16px;}
+.btn-outline-black{
+    border-radius: 20px;
+    border: 1.5px solid #090B21;
+    width: 156px;
+    height: 46px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-size: 13px;
+}
+.data-steps .btn-red{
+    height: 50px;
+    font-size: 15px;
+    gap: 4px;
+    width: 135px;
+}
+.boxs-stepOne .box-domians-links .fx-linkBox .text-green{
+    font-size: 22px;
+    color: #116623;
+}
+.boxs-stepOne .domians-links .href-suggestions{
+    color:#CB1F49;
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 4%; /* 1px */
+    text-underline-offset: 4.5%; /* 1.125px */
+    text-underline-position: from-font;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    transform: 0.2s;
+    width: max-content;
+}
+.boxs-stepOne .domians-links .href-suggestions:hover{
+    transform: scale(0.93);
+}
+@media (min-width:1706.67px) {
+     .boxs-stepOne .box-domians-links .fx-linkBox .text-green{font-size: 25px;}
+    .boxs-stepOne .box-domians-links .fx-linkBox p{font-size: 25px;}
+    .btn-outline-black{width: 120px;font-size: 12px;}
+    .data-steps .btn-red{font-size: 13px;height: 47px;padding: 0 24px;}
+    .data-steps .btn-red img{width: 20px;}
+
+}
+@media (max-width:1228.8px) {
+    .boxs-stepOne .box-domians-links .fx-linkBox .text-green{font-size: 20px;}
+    .boxs-stepOne .box-domians-links .fx-linkBox p{font-size: 17px;}
+    .btn-outline-black{width: 120px;font-size: 12px;}
+    .data-steps .btn-red{font-size: 13px;height: 47px;padding: 0 24px;}
+    .data-steps .btn-red img{width: 20px;}
+}
+@media (max-width:1024px) {
+    .boxs-stepOne .browse-extensions h2{font-size: 18px;}
+    .boxs-stepOne .browse-extensions .item-browse-extensions p, .boxs-stepOne .browse-extensions .item-browse-extensions span{font-size: 17px;}
+    #btnContinue{height: 55px;}
+    .btn-outline-black{width: 110px;font-size: 11px;}
+    .data-steps .btn-red{width: 110px;font-size: 11px;height: 40px;}
+    #btnContinue span{font-size: 20px;}
+    .boxs-stepOne .box-domians-links .fx-linkBox .text-green{font-size: 17px;}
+    .boxs-stepOne .box-domians-links .fx-linkBox p{font-size: 15px;}
+    .boxs-stepOne .box-domians-links .fx-linkBox{padding: 16px 5px;}
+    .boxs-stepOne .box-browse-extensions .list-browse-extensions{gap: 8px;}
+    .boxs-stepOne .domians-links .href-suggestions{font-size: 18px;}
+}
+@media (max-width:877.71px) {
+    .boxs-stepOne{flex-direction: column;}
+    .boxs-stepOne .browse-extensions{width: 50%;}
+    .boxs-stepOne .domians-links{width: 100%;}
+    .data-steps .step-content .form-domain .fx-domain .btn-red{height: 55px;}
+    .data-steps .step-content .form-domain .fx-domain .btn-red span{font-size: 14px;}
+    .data-steps .step-content .form-domain .fx-domain form{height: 55px;}
+    .data-steps .step-content .form-domain .fx-domain input{font-size: 16px;}
+    .data-steps .step-content .form-domain .fx-domain form button{font-size: 14px;}
+    .steps-section .fx-steps-section{justify-content: start;}
+}
+@media (max-width:614.4px) {
+    .data-steps .step-content .form-domain .fx-domain form{width: 100%;}
+    .data-steps .step-content .form-domain{padding: 24px 16px;}
+    .data-steps .step-content .form-domain .fx-domain{flex-direction: column;}
+    .boxs-stepOne{margin-top: 24px;gap: 24px;}
+    .boxs-stepOne .browse-extensions{width: 100%;}
+    .boxs-stepOne .box-domians-links .fx-linkBox{flex-direction: column;align-items: start;gap: 16px;}
+    .boxs-stepOne .box-domians-links{padding: 16px;}
+    .data-steps .btn-red,
+    .btn-outline-black{height: 45px;width: 100px;}
+    .data-steps .step-content .form-domain .fx-domain .btn-red{height: 45px;width: 120px;}
+    .data-steps .step-content .form-domain h2{font-size: 20px;}
+    .steps-section .fx-steps-section .fx-step p{font-size: 18px;}
+    .steps-section .fx-steps-section .fx-step .number-step{width: 40px;height: 40px;}
+    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 18px;}
+    
+}
+/* Step 2 Style */
+.steps-section .stepTwo-title{gap: 30px;}
+.steps-section .stepTwo-title .line{
+    height: 0.5px;
+    width: 100%;
+    background: #000000;
+    display: block;
+    opacity: 0.5;
+}
+ .stepTwo-title h5{
+    color: #090B21;
+    font-size: 25px;
+    line-height: 24px;
+    width: max-content;
+    white-space: pre ;
+}
+.data-steps .boxs-step-content2{gap: 38px;margin-top: 40px;margin-bottom: 48px;}
+.data-steps .boxs-step-content2 .registration-period h2{
+    color: #090B21;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.data-steps .boxs-step-content2 .registration-period .a-style{
+    color: #CB1F49;
+    font-size: 25px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 8%;
+    text-underline-offset: 0.5%;
+    text-underline-position: from-font;
+        margin-bottom: 20px;
+        display: block;
+}
+.data-steps .boxs-step-content2 .registration-period .time-style{
+    color: #445375;
+    font-size: 25px;
+    line-height: 24px; 
+    margin-bottom: 20px;
+    display: block;
+}
+.data-steps .boxs-step-content2 .registration-period .fx-registrationPeriod{
+    background: #FFFAF8;
+}
+.data-steps .boxs-step-content2  .fx-registrationPeriod .icon-registrationPeriod{
+    padding: 16px;
+    border-radius: 10px;
+    border: 7px solid rgba(249, 248, 255, 1) ;
+    width: max-content;
+    height: max-content;
+}
+.data-steps .boxs-step-content2 .fx-registrationPeriod .icon-registrationPeriod img{
+    width: 60px;
+}
+.data-steps .boxs-step-content2  .fx-registrationPeriod .texts-registrationPeriod{
+    padding: 30px 20px 40px 40px;
+}
+.data-steps .boxs-step-content2  .fx-registrationPeriod .texts-registrationPeriod h3{
+    color: #0F0D1D;
+    font-size: 28px;
+    line-height:33.6px;
+    margin-bottom: 10px;
+}
+.data-steps .boxs-step-content2  .fx-registrationPeriod .texts-registrationPeriod p{
+    color: #445375;
+    font-size: 17px;
+    line-height: 28px; 
+    margin-bottom: 11px;
+    width:85%;
+}
+.data-steps .boxs-step-content2  .texts-registrationPeriod  .down-registrationPeriod h4{
+    color: #090B21;
+    font-size: 18px;
+    line-height:28px;
+}
+.data-steps .title-style{
+    color: #000;
+    font-size: 25px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.fx-form{gap: 25px;}
+.fx-formGroup{gap: 100px;flex-wrap: wrap;}
+.fx-formGroup .form-group{
+    flex: 1 1 calc(50% - 100px);
+    max-width: calc(50% - 0px);
+    position: relative;
+}
+.steps-section label{
+    color: #090B21;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    display: block;
+}
+.steps-section input{
+    border-radius: 20px;
+    border: 0.5px solid #090B21;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    color: #090B21;
+    font-size: 20px;
+    line-height: 24px; 
+}
+.steps-section input::placeholder{color: #BFBFC1;}
+.steps-section .fx-form .fx-formGroup .btn-red{
+    width: 70%;
+    margin-left: auto;
+    height: 70px;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 24px;
+    gap: 20px;
+}
+@media (min-width:1706.67px) {
+    
+}
+@media (min-width:1920px) {
+    .steps-section .fx-form .fx-formGroup .btn-red{height: 80px;}
+    .steps-section .fx-form .fx-formGroup .btn-red span{font-size: 28px;}
+     .data-steps .boxs-step-content2 .registration-period h2,
+    .data-steps .boxs-step-content2 .registration-period .time-style,
+    .data-steps .boxs-step-content2 .registration-period .a-style,
+    .stepTwo-title h5,.data-steps .title-style{font-size: 30px;}
+    .data-steps .title-style{line-height: 40px;font-size: 35px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod p{font-size: 22px;}
+    .data-steps .boxs-step-content2 .texts-registrationPeriod .down-registrationPeriod h4{font-size: 22px;}
+    .fx-form{gap: 45px;}
+    
+}
+@media (min-width:2048px) {
+    
+}
+@media (min-width:2304px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .data-steps .boxs-step-content2 .registration-period h2{margin-bottom: 25px;}
+    .data-steps .boxs-step-content2 .registration-period h2,
+    .data-steps .boxs-step-content2 .registration-period .time-style,
+    .data-steps .boxs-step-content2 .registration-period .a-style,
+    .stepTwo-title h5,.data-steps .title-style{font-size: 22px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod h3{font-size: 24px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod p{font-size: 15px;line-height: 22px;}
+    .data-steps .boxs-step-content2 .texts-registrationPeriod .down-registrationPeriod h4{font-size: 16px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .icon-registrationPeriod img{width: 45px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod {padding: 20px 20px 30px 20px;}
+    .steps-section .fx-form .fx-formGroup .btn-red{height: 55px;font-size: 17px;}
+}
+@media (max-width:1024px) {
+    .data-steps .boxs-step-content2 .registration-period h2{margin-bottom: 20px;}
+    .data-steps .boxs-step-content2 .registration-period h2,
+    .data-steps .boxs-step-content2 .registration-period .time-style,
+    .data-steps .boxs-step-content2 .registration-period .a-style,
+    .stepTwo-title h5,.data-steps .title-style{font-size: 18px;}
+     .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod h3{font-size: 21px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod p{font-size: 13px;line-height: 19px;}
+    .data-steps .boxs-step-content2 .texts-registrationPeriod .down-registrationPeriod h4{font-size: 14px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .icon-registrationPeriod img{width: 40px;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod {padding: 20px 20px 20px 20px;}
+    .steps-section .fx-form .fx-formGroup .btn-red{height: 45px;font-size: 15px;}
+}
+@media (max-width:877.71px) {
+    .data-steps .boxs-step-content2{gap: 24px;}
+}
+@media (max-width:768px) {
+    .data-steps .boxs-step-content2{flex-direction: column;}
+}
+@media (max-width:614.4px) {
+
+}
+@media (max-width:512px) {
+    .steps-section .fx-form .fx-formGroup .btn-red{width: 40%;gap: 12px;}
+    .steps-section .fx-form .fx-formGroup .btn-red span{font-size: 14px;}
+   .data-steps .boxs-step-content2 .registration-period .fx-registrationPeriod{flex-direction: column;}
+    .data-steps .boxs-step-content2 .texts-registrationPeriod .down-registrationPeriod button{margin-left: auto;}
+    .data-steps .boxs-step-content2 .texts-registrationPeriod .down-registrationPeriod{flex-direction: column;}
+    .data-steps .boxs-step-content2 .fx-registrationPeriod .texts-registrationPeriod{padding: 15px 20px;}
+}
+/* Step 3 */
+.data-steps .step3-content .boxs-step-content3{gap: 30px;margin: 30px 0;}
+.data-steps .step3-content .orderSummary{
+    border-radius: 10px;
+    background: #FFFAF8;
+    padding: 25px;
+        width: 37%;
+}
+.data-steps .step3-content h2{
+    color: #000;
+    font-size: 26px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.data-steps .step3-content .orderSummary .d-flex{gap: 30px;}
+.data-steps .step3-content .orderSummary .fx-orderSummary1{margin-bottom: 25px;}
+.data-steps .step3-content .orderSummary .fx-orderSummary2{margin-bottom: 35px;}
+.data-steps .step3-content  h3{
+    color: #000;
+    font-size: 26px;
+    line-height: 24px; 
+}
+.data-steps .step3-content  h1{
+    color: #000;
+    font-size: 32px;
+    line-height: 24px;
+    white-space: pre;
+}
+.data-steps .step3-content  p{
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.data-steps .step3-content  h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.data-steps .step3-content .domainRegistration{
+    border-radius: 10px;
+    background: #FFFAF8;
+    padding: 30px;
+    width: 63%;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration1{width: 80%;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration1,
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2{margin-bottom: 25px;align-items: end;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part1 .fx-part1{gap: 10px;margin-bottom: 7px;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part1 .fx-part1 img{transition: 0.3s;cursor: pointer;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part1 .fx-part1 img:hover{transform: scale(1.1);}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .d-flex{
+position: relative;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list{    
+    padding:10px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background: #FFFAF8;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span:hover{
+    background: #ebebeb;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 {gap: 15px;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .btn-outline{
+    height: 40px;
+  padding: 0 20px;
+    background: #FFFAF8;
+    border-radius: 20px;
+    border: 1.5px solid #090B21;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    width: max-content;
+}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .btn-outline img{width: 16px;}
+.data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list{display: none;}
+.data-steps .step3-content .fx-form-coupon{
+    border-radius: 30px;
+    border: 0.5px solid #090B21;
+    gap: 20px;
+    padding-left: 20px;
+    height: 65px;
+}
+.data-steps .step3-content .fx-form-coupon input{width: 100%;border: none;background: none;padding: 0;font-size: 18px;}
+.data-steps .step3-content .fx-form-coupon button{
+    border-radius: 30px;
+    background: #913276;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    height: 100%;
+    padding: 0 24px;
+    white-space: pre;
+}
+.data-steps .step3-content .form-step2{margin: 30px 0 ;}
+.data-steps .step3-content .fx-formGroup{padding-left: 27px;}
+.data-steps .step3-content .phone-input-container{
+  display: flex;
+  align-items: center;
+    border-radius: 20px;
+    border: 0.5px solid #090B21;
+    width: 100%;
+    padding:0 20px;
+    height: 60px;
+    color: #090B21;
+    font-size: 20px;
+    line-height: 24px;
+    gap: 8px;
+    background: #fff;
+}
+.data-steps .step3-content .phone-input-container input{
+   background: none;
+   width: 80%;
+   border: none;
+    font-size: 17px;
+}  
+.data-steps .step3-content .dropdown-phone-btn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 17px;
+} 
+.data-steps .step3-content .dropdown-phone-btn span{font-size: 16px;}
+.data-steps .step3-content .phone-input-container .dropdown-phone-list img,
+.data-steps .step3-content .flag-size{
+    width: 35px;
+    height: 24px;
+    object-fit: cover;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: max-content;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-btn {
+    cursor: pointer;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-btn p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-btn .arrow-down2{width: 15px;} 
+.data-steps .step3-content .phone-input-container .dropdown-phone-list p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #a5a5a5;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-list p span{
+    font-size: 16px;
+}
+.data-steps .step3-content .phone-input-container .dropdown-phone-list p:hover {
+    background-color: #f0f0f0;
+}
+.data-steps .step3-content .phone-input-container .border-input{
+    height: 40px;
+    width: 1px;
+    opacity: 0.36;
+    background: #000;
+}
+.data-steps .step3-content .formCountry{padding-left: 27px;}
+.data-steps .step3-content .dropdown-btn{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 0.5px solid #090B21;
+    background: #fff;
+    width: 100%;
+    padding:0 20px;
+    height: 60px;
+    color: #090B21;
+    font-size: 20px;
+    line-height: 24px;
+}
+.data-steps .step3-content .dropdown-btn input{
+    background: none;
+    border: none;
+    width: 97%;
+    cursor: pointer;
+    padding: 0;
+}
+.data-steps .step3-content .dropdown-btn input:focus{box-shadow: none;}
+.data-steps .step3-content h5{
+    color: #000;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.data-steps .step3-content .dropdown-btn img{width: 25px;opacity: 0.7;}
+.data-steps .step3-content .dropdown-list{
+    padding:10px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    display: none;
+    z-index: 10;
+}
+.data-steps .step3-content .dropdown-list p{
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.data-steps .step3-content .dropdown-list p:hover{
+    background: #ebebeb;
+}
+.data-steps .step3-content .fx-form{margin-bottom: 35px;}
+.data-steps .step3-content .a-red{
+    gap: 20px;
+    text-decoration: none;
+    margin: 35px 0;
+    transition: 0.3s;
+}
+.data-steps .step3-content .a-red:hover{transform: scale(0.95);}
+.data-steps .step3-content .a-red span{
+    color: #CB1F49;
+    font-size: 25px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 7%;
+    text-underline-offset: 9%;
+    text-underline-position: from-font;
+}
+.data-steps .step3-content  .fx-password{
+    border-radius: 20px;
+    border: 0.5px solid #090B21;
+    width: 100%;
+    padding:0 20px;
+    height: 60px;
+    color: #090B21;
+    font-size: 20px;
+    line-height: 24px;
+    background: #fff;
+}
+.data-steps .step3-content  .fx-password input{
+    border: none;
+    background: none;
+    padding: 0;
+    height: 100%;
+}
+.data-steps .step3-content .formPassword{margin: 35px 0;}
+.data-steps .step3-content  .fx-password img{width: 24px;cursor: pointer;transition: 0.3s;}
+.data-steps .step3-content  .fx-password img:hover{transform: scale(0.9);}
+.data-steps .step3-content .btnPassword{margin-top: 25px;}
+.data-steps .step3-content .btnPassword button{width: max-content;white-space: normal;padding: 0 20px;}
+.data-steps .step3-content .box-red{
+    margin-top: 25px;
+    height: 74px;
+    text-align: center;
+    border-radius: 30px;
+    background: rgba(203, 31, 73, 0.14);
+}
+.data-steps .step3-content .box-red p{font-size: 22px;color: #CB1F49;}
+.data-steps .step3-content .formPayment-details{
+    border-radius: 10px;
+    background: #FFFAF8;
+    padding: 25px;
+    margin-top: 25px;
+}
+.data-steps .step3-content .fxRadio-Pay{ 
+    gap: 28px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #000;
+}
+.data-steps .step3-content .formPayment-details .fx-formGroup{padding-left: 0;margin-top: 35px;}
+.data-steps .step3-content .fxRadio-Pay .fx-general-card-st{
+    flex: 1 1 calc(25% - 28px);
+    max-width: calc(25% - 0px);
+    border-radius: 20px;
+    background: #FFF;
+    padding: 20px;
+    height: 110px;
+}
+.data-steps .step3-content input[type="radio"]:checked,
+.data-steps .step3-content input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.data-steps .step3-content input[type="radio"]:checked + label,
+.data-steps .step3-content input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 4rem;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.data-steps .step3-content label img{
+    width: 100%;
+    height: 75px;
+    object-fit: contain;
+}
+.data-steps .step3-content input[type="radio"]:checked + label:before,
+.data-steps .step3-content input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #CB1F49;
+    border-radius: 100%;
+    background: #FAE9ED;
+}
+.data-steps .step3-content input[type="radio"]:checked + label:after,
+.data-steps .step3-content input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #CB1F49 ;
+    position: absolute;
+    top: 31.5px;
+    left: 7.5px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.data-steps .step3-content input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.data-steps .step3-content input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.data-steps .step3-content .m-fxPaymentDetails{margin-top: 25px;}
+.data-steps .step3-content .fxPayment-details{margin-bottom: 22px;}
+.data-steps .step3-content .fxPayment-details1{gap:20px ;}
+.data-steps .step3-content .formGroupCheckBox{
+    margin-top: 40px;
+    gap: 20px;
+}
+.formGroupCheckBox {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.formGroupCheckBox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.formGroupCheckBox label {
+  position: relative;
+  cursor: pointer;
+}
+
+.formGroupCheckBox label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #7F7F7F;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.formGroupCheckBox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #CB1F49;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.formGroupCheckBox label{
+    color: #000;
+    font-size: 21px;
+}
+.formGroupCheckBox label a{text-decoration: none;color: #CB1F49;font-size: 21px;}
+.data-steps .step3-content .line-border{
+    margin-bottom: 22px;
+    width: 100%;
+    background: #2c2c2c;
+    height: 0.5px;
+}
+.data-steps .step3-content .submit-Order{
+    width: 371px;
+    height: 70px;
+    margin-top: 35px;
+    font-size: 24px;
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:2048px) {
+    
+}
+@media (min-width:1920px) {
+    .formGroupCheckBox label,
+    .formGroupCheckBox label a{font-size: 25px;line-height: normal;}
+    .data-steps .step3-content p{font-size: 30px;line-height: 40px;}
+    .data-steps .step3-content .fxPayment-details{margin-bottom: 26px;}
+    .data-steps .step3-content .fxPayment-details1 img{width: 40px;}
+    .data-steps .step3-content .m-fxPaymentDetails{margin-top: 45px;}
+    .data-steps .step3-content h2{font-size: 30px;}
+    .data-steps .step3-content h4{font-size: 24px;}
+    .data-steps .step3-content h3{font-size: 30px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .btn-outline{height: 60px;font-size: 22px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part1 .fx-part1{margin-bottom: 15px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{font-size: 22px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration1, .data-steps .step3-content .domainRegistration .fx-domainRegistration2{margin-bottom: 35px;}
+}
+@media (min-width:1706.67px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .data-steps .step3-content h2,
+    .data-steps .step3-content h3{font-size: 22px;}
+    .data-steps .step3-content h1{font-size: 28px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .btn-outline{font-size: 14px;}
+    .data-steps .step3-content .fx-form-coupon{height: 55px;}
+    .data-steps .step3-content .fx-form-coupon input,
+    .data-steps .step3-content .fx-form-coupon button,
+    .data-steps .step3-content h4{font-size: 15px;}
+    .data-steps .step3-content .fx-form-coupon img{width: 22px;}
+    .data-steps .step3-content p,.data-steps .step3-content .a-red span,
+    .data-steps .step3-content h5{font-size: 21px;}
+    .data-steps .step3-content .a-red img{width: 25px;}
+    .data-steps .step3-content .a-red{gap: 10px;}
+    .data-steps .step3-content .box-red p{font-size: 19px;}
+    .formGroupCheckBox label,
+    .formGroupCheckBox label a{font-size: 18px;}
+    .formGroupCheckBox label:before{width: 5px;height: 5px;padding: 5px;}
+    .data-steps .step3-content .submit-Order{width: 321px; height: 60px;font-size: 20px;}
+    .data-steps .step3-content .phone-input-container
+    .data-steps .step3-content .fx-password{height: 55px;}
+    .data-steps .step3-content .phone-input-container input,
+    .data-steps .step3-content .phone-input-container span{font-size: 17px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{font-size: 14px;}
+}
+@media (max-width:1024px) {
+    .data-steps .step3-content h2,
+    .data-steps .step3-content h3{font-size: 18px;}
+    .data-steps .step3-content h1{font-size: 24px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .btn-outline{font-size: 12px;}
+    .data-steps .step3-content .fx-form-coupon{height: 45px;}
+    .data-steps .step3-content .fx-form-coupon input,
+    .data-steps .step3-content .fx-form-coupon button,
+    .data-steps .step3-content h4{font-size: 13px;}
+    .data-steps .step3-content .fx-form-coupon img{width: 18px;}
+    .data-steps .step3-content p,.data-steps .step3-content .a-red span,
+    .data-steps .step3-content h5{font-size: 18px;}
+    .data-steps .step3-content .a-red img{width: 22px;}
+    .data-steps .step3-content .a-red{gap: 8px;}
+    .data-steps .step3-content .box-red p{font-size: 16px;}
+    .formGroupCheckBox label,
+    .formGroupCheckBox label a{font-size: 16px;}
+    .data-steps .step3-content .submit-Order{width: 291px; height: 50px;font-size: 15px;}
+    .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .fx-password,
+    .data-steps .step3-content .phone-input-container{height: 45px;}
+    .data-steps .step3-content .phone-input-container input,
+    .data-steps .step3-content .phone-input-container span{font-size: 15px;}
+    .data-steps .step3-content .flag-size {width: 28px;height: 18px;}
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{font-size: 12px;}
+}
+@media (max-width:877.71px) {
+    .data-steps .step3-content h2,
+    .data-steps .step3-content h3{font-size: 15px;}
+    .data-steps .step3-content h1{font-size: 20px;}
+    .data-steps .step3-content .fx-form-coupon{height: 40px;}
+    .data-steps .step3-content .fx-form-coupon input,
+    .data-steps .step3-content .fx-form-coupon button{font-size: 11px;}
+    .data-steps .step3-content .fx-form-coupon img{width: 15px;}
+    .data-steps .step3-content p,.data-steps .step3-content .a-red span,
+    .data-steps .step3-content h5{font-size: 15px;}
+    .data-steps .step3-content .a-red img{width: 18px;}
+    .data-steps .step3-content .box-red p{font-size: 14px;}
+    .formGroupCheckBox label,
+    .formGroupCheckBox label a{font-size: 14px;}
+    .data-steps .step3-content .submit-Order{width: 251px; height: 45px;font-size: 13px;}
+    .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .fx-password,
+    .data-steps .step3-content .phone-input-container{height: 40px;}
+    .data-steps .step3-content .fx-password img{width: 18px;}
+    .data-steps .step3-content .phone-input-container input,
+    .data-steps .step3-content .phone-input-container span{font-size: 13px;} 
+    .data-steps .step3-content .fxRadio-Pay{gap: 18px;}
+    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 3rem;}
+
+
+}
+@media (max-width:768px) {
+    .data-steps .step3-content .boxs-step-content3{gap: 24px;flex-direction: column;}
+    .data-steps .step3-content .orderSummary{width: 80%;}
+    .data-steps .step3-content .domainRegistration{width: 100%;}
+    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 2rem;}
+    .data-steps .step3-content input[type="radio"]:checked + label:before, .data-steps .step3-content input[type="radio"]:not(:checked) + label:before{
+    width: 16px;height: 16px;
+    }
+    .data-steps .step3-content input[type="radio"]:checked + label:after, .data-steps .step3-content input[type="radio"]:not(:checked) + label:after {                                              
+        width: 8px;
+        height: 8px;
+        top: 28.5px;
+        left: 5.5px;
+    }
+}
+@media (max-width:614.4px) {
+    .data-steps .step3-content .domainRegistration .fx-domainRegistration2{flex-direction: column;align-items: start;gap: 16px;}
+    .data-steps .step3-content .fxRadio-Pay{gap: 16px;}
+    .data-steps .step3-content .fxRadio-Pay .fx-general-card-st {flex: 1 1 calc(50% - 16px);max-width: calc(50% - 0px);padding: 15px 10px;}
+    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 1.5rem;}
+    .data-steps .step3-content input[type="radio"]:checked + label:after{top: 29px;left: 5px;}
+    .data-steps .step3-content .fxPayment-details{margin-bottom: 8px;}
+    .data-steps .step3-content .fxPayment-details1{gap: 4px;}
+    .data-steps .step3-content .orderSummary{width: 100%;}
+    .data-steps .step3-content .boxs-step-content3{gap: 16px;}
+    .data-steps .step3-content .fx-formGroup{padding-left: 20px;}
+    .data-steps .step3-content .domainRegistration,
+    .data-steps .step3-content .orderSummary,
+    .data-steps .step3-content .formPayment-details{padding: 20px 16px;}
+    .data-steps .step3-content .box-red{height: 55px;}
+}
+@media (max-width:512px) {
+    
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1920px) {
+    .steps-section input,
+    .data-steps .step3-content .fx-form-coupon,
+    .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .phone-input-container,
+    .data-steps .step3-content .fx-password{height: 80px;font-size: 24px;}
+    .steps-section label{font-size: 25px;margin-bottom: 20px;}
+    .data-steps .btn-red{font-size: 21px;width: 180px;height: 60px;}
+    .data-steps .btn-red img{width: 40px;}
+    .steps-section .fx-steps-section .fx-step p,
+    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 30px;}
+    .steps-section .fx-steps-section .fx-step{gap: 24px;}
+    .steps-section .fx-steps-section .fx-step .number-step{width: 60px;height: 60px;}
+    .steps-section .fx-steps-section{gap: 24px;}
+    .data-steps .step3-content .dropdown-phone-btn span{font-size: 24px;}
+    .data-steps .step3-content .phone-input-container .dropdown-phone-list p span,
+    .data-steps .step3-content .dropdown-list p{font-size: 22px;}
+    .data-steps .step3-content .dropdown-list p{padding: 16px 20px;}
+    
+}
+@media (max-width:1228.8px) {
+    .steps-section label{font-size: 17px;}
+    .steps-section input,
+     .data-steps .step3-content .fx-form-coupon,
+    .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .phone-input-container,
+    .data-steps .step3-content .fx-password,
+    .data-steps .step3-content .dropdown-btn{font-size: 17px;height: 55px;}
+    .steps-section .fx-steps-section .fx-step p,
+    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 18px;}
+    .steps-section .fx-steps-section .fx-step{gap: 15px;}
+    .steps-section .fx-steps-section .fx-step .number-step{width: 40px;height: 40px;}
+    .steps-section .fx-steps-section{gap: 12px;}
+}
+@media (max-width:1024px) {
+    .steps-section label{font-size: 15px;margin-bottom: 8px;}
+    .steps-section input,
+     .data-steps .step3-content .fx-form-coupon,
+        .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .phone-input-container,
+    .data-steps .step3-content .fx-password,
+    .data-steps .step3-content .dropdown-btn{font-size: 15px;height: 45px;}
+    .steps-section .fx-steps-section .fx-step p,
+    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 17px;}
+    .steps-section .fx-steps-section .fx-step{gap: 12px;}
+    .steps-section .fx-steps-section .fx-step .number-step{width: 35px;height: 35px;}
+    .fx-formGroup{gap: 50px;}
+}
+@media (max-width:877.71px) {
+    .steps-section label{font-size: 12px;margin-bottom: 5px;}
+}
+@media (max-width:614.4px) {
+    .fx-formGroup{gap: 24px;}
+}
+@media (max-width:512px) {
+    .fx-formGroup{gap: 24px;flex-direction: column;}
+    .fx-formGroup .form-group {
+        width: 100%;
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+    }
+}

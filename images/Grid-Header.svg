@@ -1,0 +1,35 @@
+<svg width="627" height="410" viewBox="0 0 627 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_66_663" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="78" y="88" width="349" height="122">
+<path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M87.0542 101.654C96.9256 106.329 116.669 119.426 116.669 134.414C116.669 135.463 116.652 136.697 116.633 138.087C116.318 161.523 115.407 229.35 183.301 203.68C192.911 200.046 202.785 196.512 212.493 193.038C225.865 188.252 238.92 183.58 250.53 178.917C291.748 202.606 330.139 217.475 372.914 185.789C430.627 143.037 446.66 69.8841 398.863 95.4438C390.478 100.815 366.332 111.866 336.832 113.107C334.767 113.194 332.337 113.287 329.6 113.393C311.725 114.082 280.739 115.278 252.738 118.351C172.111 88.4827 42.5966 76.4826 87.0542 101.654Z" fill="url(#paint0_linear_66_663)"/>
+</mask>
+<g mask="url(#mask0_66_663)">
+<rect x="61.7031" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="85.7031" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="109.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="133.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="157.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="181.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="205.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="229.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="253.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="277.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="301.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="325.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="349.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="373.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="397.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="421.703" y="1.25635" width="24" height="300.443" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="97.2563" width="24" height="1440" transform="rotate(-90 -466.297 97.2563)" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="121.256" width="24" height="1440" transform="rotate(-90 -466.297 121.256)" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="145.256" width="24" height="1440" transform="rotate(-90 -466.297 145.256)" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="169.256" width="24" height="1440" transform="rotate(-90 -466.297 169.256)" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="193.256" width="24" height="1440" transform="rotate(-90 -466.297 193.256)" stroke="#393953" stroke-opacity="0.3"/>
+<rect x="-466.297" y="217.256" width="24" height="1440" transform="rotate(-90 -466.297 217.256)" stroke="#393953" stroke-opacity="0.3"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_66_663" x1="423.334" y1="80.3288" x2="345.927" y2="239.161" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

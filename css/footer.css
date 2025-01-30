@@ -1,0 +1,219 @@
+.footer{
+    margin-top: 80px;
+    background-image: url(../images/Background_footer.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:95vh;
+    color: #fff;
+    position: relative;
+}
+.footer-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .fx-footer{
+    align-items: normal;
+    height: max-content;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: auto;
+    justify-content: center;
+}
+.footer .fx-footer .footer-part1{
+    flex: 1 1 calc(38% - 40px);
+    max-width: calc(35% - 0px);
+}
+.footer .fx-footer .footer-part2{
+    flex: 1 1 calc(20% - 40px);
+    max-width: calc(20% - 0px);
+    align-items: center;
+}
+.footer .fx-footer .footer-part{gap: 20px;}
+.footer .fx-footer .footer-logo{
+    width: max-content;
+}
+.footer .fx-footer h5{
+    font-size: 23px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.footer .fx-footer .fx-info{gap:8px;}
+.footer .fx-footer .fx-info p{
+    font-size: 20px;
+    line-height: 28px;
+}
+.footer .fx-footer h3{
+    font-size: 25px;
+    line-height:  33.6px;
+    text-transform: capitalize;
+    border-bottom: 2px solid  #FFF;
+    padding-bottom: 10px;
+    width: 100px;
+}
+.footer .fx-footer .fx-inks-footer{gap: 15px;}
+.footer .fx-footer .footer-part2 h3{margin-bottom: 20px;}
+.footer .fx-footer .footer-part2 .fx-links-footer{
+    gap: 20px;
+}
+.footer .fx-footer a {
+    color: #fff;
+    text-decoration: none;
+    gap: 5px;
+    display: flex;
+    transition: 0.3s;
+}
+.footer .fx-footer a:hover{transform: scale(1.05);}
+.footer .fx-footer a span{font-size: 20px;}
+.footer .fx-footer a img{
+    filter: brightness(0) invert(1);
+}
+.copy-right{
+    position: absolute;
+    bottom: 0.8rem;
+    left: 3%;
+}
+.footer .imgs-footer{
+    position: absolute;
+    right: 1rem;
+     justify-content: end;
+     align-items: center;
+     width: 100%;
+     gap: 10px;
+     padding: 0 0px;
+}
+.copy-right p{
+    color: #000;
+    font-family: 'Jost Medium';
+    font-size: 1rem;
+}
+@media (max-width:1396.36px) {
+    .footer .fx-footer h5{font-size: 21px;}
+    .footer .fx-footer .fx-info p{font-size: 18px;}
+    .footer .fx-footer h3{font-size: 23px ;}
+    .footer .fx-footer a span{font-size: 18px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer{gap: 16px;}
+    .footer .fx-footer .fx-info img{width: 20px;}
+   .copy-right p{font-size: 0.9rem;}
+    .copy-right{left: 2.5rem;}
+    .footer .imgs-footer img{width: 55px;}
+}
+@media (max-width:1228.8px) {
+     .footer .fx-footer h5{font-size: 19px;}
+    .footer .fx-footer .fx-info p{font-size: 17px;}
+    .footer .fx-footer h3{font-size: 21px ;}
+    .footer .fx-footer a span{font-size: 17px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer{gap: 16px;}
+    .footer .fx-footer .footer-part{gap: 12px;}
+    .copy-right p{font-size: 0.8rem;}
+     .copy-right{left: 2.5rem;bottom: .6rem;}
+     .footer .imgs-footer img{width: 50px;}
+    .footer .fx-footer .footer-part2 h3{margin-bottom: 15px;padding-bottom: 8px;}
+}
+@media (max-width:1024px) {
+    .footer .fx-footer h5{font-size: 15px;line-height: normal;}
+    .footer .fx-footer .fx-info p{font-size: 15px;}
+    .footer .fx-footer h3{font-size: 19px ;}
+    .footer .fx-footer a span{font-size: 15px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer{gap: 12px;}
+    .footer .fx-footer .footer-part2 h3{margin-bottom: 13px;padding-bottom: 6px;}
+    .footer{height: 115vh;}
+    .copy-right p{font-size: 0.6rem;}
+     .copy-right{left: .5rem;bottom: .7rem;}
+   .footer .imgs-footer img{width: 30px;}
+       .footer .imgs-footer {
+        top: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        width: max-content;
+        padding: 6px 6px;
+        border-radius: 4px;
+    }
+}
+@media (max-width:877.71px) {
+    .footer{height: 100%;padding: 3rem 0px 1rem 0;}
+    .footer .fx-footer .footer-part1{
+        flex: 1 1 calc(40% - 24px);
+        max-width: calc(40% - 0px);
+        width: 100%;
+    }
+    .footer .fx-footer .footer-part1 .footer-logo{width: 100%;}
+    .footer .fx-footer .footer-part2{
+        flex: 1 1 calc(40% - 24px);
+        max-width: calc(40% - 0px);
+        align-items: start;
+    }
+    .copy-right{position: relative;left: 0;bottom: 0;margin-top: 2rem;opacity: 0.7;}
+    .copy-right p{font-size: 0.7rem; text-align: center;color: #fff;}
+    .footer .fx-footer{justify-content: space-between;gap: 24px;}
+}
+@media (max-width:768px) {
+    .footer .fx-footer .footer-part1{
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+    }
+     .footer .fx-footer .footer-part2{
+        flex: 1 1 calc(50% - 24px);
+        max-width: calc(50% - 0px);
+    }
+    .footer .fx-footer{justify-content: start;gap: 24px;}
+
+}
+@media (max-width:614.4px) {
+    .footer {
+        height: 100%;
+        padding: 12vh 0 18vh 0;
+    }
+}
+@media (max-width:512px) {
+    .footer {
+        padding: 9vh 0 7vh 0;
+        background-position: top;
+    }
+}
+@media (min-width:1706.67px) {
+    .footer {height: 90vh; }
+     .footer .imgs-footer{right: 3%;}
+    .footer .imgs-footer img{width: 70px;}
+    .copy-right p{font-size: 1.1rem;}
+}
+@media (min-width:1920px) {
+    .footer {
+        height: 90vh; 
+        background-size: cover;
+    }
+    .footer .fx-footer h5{font-size: 25px; line-height: 35px;}
+    .footer .fx-footer .fx-info p{font-size: 22px;}
+    .footer .fx-footer h3{font-size: 25px ;}
+    .footer .fx-footer a span{font-size: 21px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer{gap: 24px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer a span{font-size: 1.5rem;}
+    .footer .fx-footer .fx-info img{width: 40px;}
+   .copy-right p{font-size: 1rem;}
+    .copy-right{left: 2.5rem;}
+    .copy-right p{font-size: 1.5rem;}
+    .footer .imgs-footer img{width: 75px;}
+    .footer .fx-footer .footer-part1 a img{width: 36px;}
+}
+@media (min-width:2048px) {
+.footer .fx-footer .footer-part{gap: 30px;}
+    .footer .fx-footer .footer-part2 .fx-links-footer a span{font-size: 1.6rem;}
+    .footer .fx-footer h3{font-size: 30px;}
+    .footer .fx-footer .fx-info p{font-size: 24px;}
+        .footer .imgs-footer img{width: 85px;}
+}
+@media (min-width:2304px) {
+  .footer {height: 90vh; }
+     .footer .imgs-footer img{width: 75px;}
+        .copy-right p{font-size: 22px;}
+}
+@media (min-width:3072px) {
+  .footer {height: 64vh; }
+}
+@media (min-width:4608px) {
+  .footer {height: 40vh; }
+}
+@media (min-width:6144px) {
+  .footer {height: 30vh; }
+}
