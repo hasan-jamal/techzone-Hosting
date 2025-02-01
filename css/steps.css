@@ -232,7 +232,7 @@
     .boxs-stepOne .box-domians-links .fx-linkBox{flex-direction: column;align-items: start;gap: 16px;}
     .boxs-stepOne .box-domians-links{padding: 16px;}
     .data-steps .btn-red,
-    .btn-outline-black{height: 45px;width: 100px;}
+    .btn-outline-black{height: 40px;width: 100px;}
     .data-steps .step-content .form-domain .fx-domain .btn-red{height: 45px;width: 120px;}
     .data-steps .step-content .form-domain h2{font-size: 20px;}
     .steps-section .fx-steps-section .fx-step p{font-size: 18px;}
@@ -325,30 +325,7 @@
     margin-bottom: 50px;
 }
 .fx-form{gap: 25px;}
-.fx-formGroup{gap: 100px;flex-wrap: wrap;}
-.fx-formGroup .form-group{
-    flex: 1 1 calc(50% - 100px);
-    max-width: calc(50% - 0px);
-    position: relative;
-}
-.steps-section label{
-    color: #090B21;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 12px;
-    display: block;
-}
-.steps-section input{
-    border-radius: 20px;
-    border: 0.5px solid #090B21;
-    width: 100%;
-    padding: 0 20px;
-    height: 60px;
-    color: #090B21;
-    font-size: 20px;
-    line-height: 24px; 
-}
-.steps-section input::placeholder{color: #BFBFC1;}
+
 .steps-section .fx-form .fx-formGroup .btn-red{
     width: 70%;
     margin-left: auto;
@@ -358,9 +335,7 @@
     line-height: 24px;
     gap: 20px;
 }
-@media (min-width:1706.67px) {
-    
-}
+
 @media (min-width:1920px) {
     .steps-section .fx-form .fx-formGroup .btn-red{height: 80px;}
     .steps-section .fx-form .fx-formGroup .btn-red span{font-size: 28px;}
@@ -930,7 +905,7 @@ position: relative;
 }
 @media (max-width:877.71px) {
     .data-steps .step3-content h2,
-    .data-steps .step3-content h3{font-size: 15px;}
+    .data-steps .step3-content h3{font-size: 18px;}
     .data-steps .step3-content h1{font-size: 20px;}
     .data-steps .step3-content .fx-form-coupon{height: 40px;}
     .data-steps .step3-content .fx-form-coupon input,
@@ -972,7 +947,14 @@ position: relative;
 @media (max-width:614.4px) {
     .data-steps .step3-content .domainRegistration .fx-domainRegistration2{flex-direction: column;align-items: start;gap: 16px;}
     .data-steps .step3-content .fxRadio-Pay{gap: 16px;}
-    .data-steps .step3-content .fxRadio-Pay .fx-general-card-st {flex: 1 1 calc(50% - 16px);max-width: calc(50% - 0px);padding: 15px 10px;}
+    .data-steps .step3-content .fxRadio-Pay .fx-general-card-st {
+        flex: 1 1 calc(50% - 16px);
+        max-width: calc(50% - 0px);
+        padding: 0x;
+        display: flex;
+        justify-content:center;
+        height: 70px;
+    }
     .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 1.5rem;}
     .data-steps .step3-content input[type="radio"]:checked + label:after{top: 29px;left: 5px;}
     .data-steps .step3-content .fxPayment-details{margin-bottom: 8px;}
@@ -984,26 +966,69 @@ position: relative;
     .data-steps .step3-content .orderSummary,
     .data-steps .step3-content .formPayment-details{padding: 20px 16px;}
     .data-steps .step3-content .box-red{height: 55px;}
+    .data-steps .step3-content .submit-Order{width: 200px;}
 }
 @media (max-width:512px) {
-    
+    .data-steps .step3-content .orderSummary .fx-orderSummary1{margin-bottom: 5px;}
+    .data-steps .step3-content h2,
+    .data-steps .step3-content .orderSummary .fx-orderSummary2{margin-bottom: 20px;}
 }
-
-
-
-
-
-
-
-
-
+/* Step 4 Style */
+.data-steps .successfullyStep{
+    margin: 10rem 0;
+}
+.data-steps .successfullyStep .successMark{
+    margin-bottom: 60px;
+}
+.data-steps .successfullyStep h1{
+    color: #090B21;
+    font-size: 48px;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.data-steps .successfullyStep p{
+    color: #090B21;
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.data-steps .successfullyStep .btn-red{
+    width: 421px;
+    height: 70px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 22px;
+}
 @media (min-width:1920px) {
-    .steps-section input,
+    .data-steps .successfullyStep .successMark{margin-bottom: 60px;width: 20%;}
+    .data-steps .successfullyStep h1{font-size: 60px;margin-bottom: 30px;}
+    .data-steps .successfullyStep p{font-size: 30px;margin-bottom: 55px;}
+    .data-steps .successfullyStep .btn-red{width: 571px;height: 90px;font-size: 26px;}
+}
+@media (max-width:1228.8px) {
+    .data-steps .successfullyStep{margin: 4rem 0 7rem 0;}
+    .data-steps .successfullyStep .successMark{margin-bottom: 40px;width: 20%;}
+    .data-steps .successfullyStep h1{font-size: 40px;margin-bottom: 16px;}
+    .data-steps .successfullyStep p{font-size: 20px;margin-bottom: 35px;}
+    .data-steps .successfullyStep .btn-red{width: 371px;height: 60px;font-size: 18px;}
+}
+@media (max-width:1024px) {
+}
+@media (max-width:768px) {
+    .data-steps .successfullyStep .successMark{margin-bottom: 40px;width: 50%;}
+    .data-steps .successfullyStep h1{font-size: 35px;margin-bottom: 16px;line-height: 45px;}
+    .data-steps .successfullyStep h1 br{display: none;}
+    .data-steps .successfullyStep p{font-size: 20px;margin-bottom: 35px;}
+    .data-steps .successfullyStep p br{display: none;}
+    .data-steps .successfullyStep .btn-red{width: 250px;}
+}
+/* Public Responsive */
+@media (min-width:1920px) {
     .data-steps .step3-content .fx-form-coupon,
     .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
     .data-steps .step3-content .fx-password{height: 80px;font-size: 24px;}
-    .steps-section label{font-size: 25px;margin-bottom: 20px;}
+     label{font-size: 25px;margin-bottom: 20px;}
     .data-steps .btn-red{font-size: 21px;width: 180px;height: 60px;}
     .data-steps .btn-red img{width: 40px;}
     .steps-section .fx-steps-section .fx-step p,
@@ -1018,8 +1043,6 @@ position: relative;
     
 }
 @media (max-width:1228.8px) {
-    .steps-section label{font-size: 17px;}
-    .steps-section input,
      .data-steps .step3-content .fx-form-coupon,
     .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
@@ -1032,30 +1055,17 @@ position: relative;
     .steps-section .fx-steps-section{gap: 12px;}
 }
 @media (max-width:1024px) {
-    .steps-section label{font-size: 15px;margin-bottom: 8px;}
-    .steps-section input,
      .data-steps .step3-content .fx-form-coupon,
-        .data-steps .step3-content .dropdown-btn,
+    .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
     .data-steps .step3-content .fx-password,
     .data-steps .step3-content .dropdown-btn{font-size: 15px;height: 45px;}
     .steps-section .fx-steps-section .fx-step p,
-    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 17px;}
+    .steps-section .fx-steps-section .fx-step .number-step span{font-size: 18px;}
     .steps-section .fx-steps-section .fx-step{gap: 12px;}
     .steps-section .fx-steps-section .fx-step .number-step{width: 35px;height: 35px;}
-    .fx-formGroup{gap: 50px;}
 }
-@media (max-width:877.71px) {
-    .steps-section label{font-size: 12px;margin-bottom: 5px;}
-}
-@media (max-width:614.4px) {
-    .fx-formGroup{gap: 24px;}
-}
+
 @media (max-width:512px) {
-    .fx-formGroup{gap: 24px;flex-direction: column;}
-    .fx-formGroup .form-group {
-        width: 100%;
-        flex: 1 1 calc(100% - 24px);
-        max-width: calc(100% - 0px);
-    }
+    .steps-section{margin-top: 40px;}
 }

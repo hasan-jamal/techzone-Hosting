@@ -1,1 +1,838 @@
-Open Ticket
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Hosting</title>
+    <link rel="icon" href="./images/TECHZONE-LOGO.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/steps.css">
+    <link rel="stylesheet" href="./css/pages.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/TECHZONE-LOGO.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/TECHZONE-LOGO.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font">Home</a>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list ">
+                            <a href="#" class="style-font">Hosting</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="./webHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>WordPress Hosting</span>
+                            </a>
+                            <a href="./cloudHosting.html" class="font-medium ">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Email Hosting</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list active">
+                            <a href="#" class="style-font">Domain</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="./registerANewDomain.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="font-medium active">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font">About</a>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list">
+                            <a href="#" class="style-font">Products</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Healthcare</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime LMS</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Restaurants</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Retail</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#913276">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3H3.21922L6.78345 17.2569C5.73276 17.7236 5 18.7762 5 20C5 21.6569 6.34315 23 8 23C9.65685 23 11 21.6569 11 20C11 19.6494 10.9398 19.3128 10.8293 19H15.1707C15.0602 19.3128 15 19.6494 15 20C15 21.6569 16.3431 23 18 23C19.6569 23 21 21.6569 21 20C21 18.3431 19.6569 17 18 17H8.78078L8.28078 15H18C20.0642 15 21.3019 13.6959 21.9887 12.2559C22.6599 10.8487 22.8935 9.16692 22.975 7.94368C23.0884 6.24014 21.6803 5 20.1211 5H5.78078L5.15951 2.51493C4.93692 1.62459 4.13696 1 3.21922 1H2ZM18 13H7.78078L6.28078 7H20.1211C20.6742 7 21.0063 7.40675 20.9794 7.81078C20.9034 8.9522 20.6906 10.3318 20.1836 11.3949C19.6922 12.4251 19.0201 13 18 13ZM18 20.9938C17.4511 20.9938 17.0062 20.5489 17.0062 20C17.0062 19.4511 17.4511 19.0062 18 19.0062C18.5489 19.0062 18.9938 19.4511 18.9938 20C18.9938 20.5489 18.5489 20.9938 18 20.9938ZM7.00617 20C7.00617 20.5489 7.45112 20.9938 8 20.9938C8.54888 20.9938 8.99383 20.5489 8.99383 20C8.99383 19.4511 8.54888 19.0062 8 19.0062C7.45112 19.0062 7.00617 19.4511 7.00617 20Z"
+                                    fill="#913276"></path>
+                            </g>
+                        </svg> <span class="style-font">View Cart</span>
+                    </a>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g fill="#913276" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path
+                                        d="M8.302 3.288A3.633 3.633 0 002.756 7.76c.124.237.112.49.102.61a2.984 2.984 0 01-.084.468 7.853 7.853 0 01-.2.655c.26-.09.52-.17.75-.223a.7.7 0 11.312 1.365c-.34.078-.837.258-1.278.434a23.211 23.211 0 00-.701.295l-.042.018-.01.005-.003.001a.7.7 0 01-.925-.927v-.001l.002-.004.008-.018.03-.07a21.252 21.252 0 00.43-1.047c.113-.3.211-.592.27-.822.021-.09.034-.157.041-.205a5.033 5.033 0 017.74-6.082.7.7 0 01-.896 1.076zM1.463 8.226v0z">
+                                    </path>
+                                    <path
+                                        d="M4.75 9.333a5.083 5.083 0 119.657 2.221c.006.033.015.077.029.133.05.197.14.453.248.734.087.223.178.443.262.646l.06.146c.049.118.094.23.131.326.03.082.074.2.097.306a.75.75 0 01-.734.905c-.169 0-.332-.04-.447-.072a4.867 4.867 0 01-.394-.134c-.188-.072-.402-.162-.606-.248l-.216-.09a7.634 7.634 0 00-.705-.265 1.739 1.739 0 00-.095-.026A5.083 5.083 0 014.75 9.333zm1.5 0a3.583 3.583 0 116.763 1.654c-.124.239-.12.485-.11.614.01.155.043.313.08.456.054.214.132.448.216.676a7.37 7.37 0 00-.643-.231 2.456 2.456 0 00-.443-.093 1.113 1.113 0 00-.626.104 3.583 3.583 0 01-5.237-3.18zm8.15 2.16l-.001-.012v.013z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="style-font">Support</span>
+                    </a>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                                    stroke="#913276" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                                <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#913276"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                        <span class="style-font">Login</span>
+                    </a>
+                    <div class="border"></div>
+                    <button class="btn-purple">
+                        <span class="font-medium">get Started</span>
+                        <img src="./images/arrow-btn.svg" alt="arrow">
+                    </button>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="d-flex align-items-center fx-header">
+            <div class="logo-header">
+                <img src="./images/TECHZONE-LOGO.svg" alt="TECHZONE LOGO" onclick="window.location.href='./index.html'">
+            </div>
+            <div class="d-flex align-items-center links">
+                <div class="align-items-center links-part links-part1">
+                    <a href="./index.html" class="font-medium active">Home</a>
+                    <div class="box-link">
+                        <a class="link" data-target="hosting">
+                            <span class="font-medium">Hosting</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="hosting">
+                            <a href="./webHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>WordPress Hosting</span>
+                            </a>
+                            <a href="./cloudHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Email Hosting</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a class="link" data-target="domain">
+                            <span class="font-medium">Domain</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="domain">
+                            <a href="./registerANewDomain.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./aboutUs.html" class="font-medium">About</a>
+                    <div class="box-link">
+                        <a class="link" data-target="products">
+                            <span class="font-medium">Products</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="products">
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Healthcare</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime LMS</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Restaurants</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Retail</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" align-items-center links-part links-part2">
+                    <a class="d-flex">
+                        <img src="./images/shopping-cart.svg" alt="View Cart">
+                        <span class="style-font">View Cart</span>
+                    </a>
+                    <a class="d-flex">
+                        <img src="./images/support-icon.svg" alt="Support">
+                        <span class="style-font">Support</span>
+                    </a>
+                    <a href="./login.html" class="d-flex">
+                        <img src="./images/login-icon.svg" alt="Login">
+                        <span class="style-font">Login</span>
+                    </a>
+                    <button class="btn-outline-white " onclick="window.location.href='./register.html'">
+                        <span class="font-medium">get Started</span>
+                        <img src="./images/arrow-btn.svg" alt="arrow">
+                    </button>
+                    <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                        <div class="div1"></div>
+                        <div class="div2"></div>
+                        <div class="div3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="background-generic">
+            <div class="background-generic-container">
+                <div class="d-flex align-items-center justify-content-center flex-column fx-head-texts">
+                    <h1 class="font-bold text-center text-capitalize">Transfer Domains to Us</h1>
+                    <h4 class="font-bold text-center text-capitalize">Transfer your domain to us
+                        Transfer now to extend your domain by 1 year!*</h4>
+                </div>
+            </div>
+        </section>
+        <section class="singleDomain-transfer">
+            <div class="singleDomain-transfer-container">
+                <h1 class="font-bold text-capitalize">Single domain transfer</h1>
+                <form action="" class="fx-form d-flex flex-column">
+                    <div class="form-group w-100">
+                        <label for="" class="font-bold">Domain Name</label>
+                        <input type="text" class="input-public font-medium" placeholder="Please enter your domain">
+                        <span class="style-font">Don’t include: https://, http://, or WWW</span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label for="" class="font-bold">Authorization Code</label>
+                        <div class="d-flex fx-authorizationCode">
+                            <input type="text" class="input-public font-medium" placeholder="Epp code \ Auth code">
+                            <img src="./images/authorizationCode.svg" alt="Authorization code icon">
+                        </div>
+                    </div>
+                    <button class="btn-red">Add To Cart</button>
+                </form>
+            </div>
+
+        </section>
+        <section class="transfer-steps">
+            <img src="./images/Grid-Header.svg" alt="Grid Header" class="grid-header">
+            <div class="transfer-steps-container px-90">
+                <div class="d-flex align-items-center justify-content-center gap-2 fx-head-text ">
+                    <div class="line-red"></div>
+                    <span class="font-bold color-red" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">Transfer
+                        steps</span>
+                    <div class="line-red"></div>
+                </div>
+                <h1 class="font-bold text-capitalize subtitle-one text-center" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">How to Transfer Domain </h1>
+                <p class="font-medium text-center p-head text-capitalize">Keeping your search simple - Find your ideal
+                    domain name
+                    quickly using our stress-free process. Your new website
+                    can be up and running in no time.</p>
+                <div class="d-flex fx-transferSteps">
+                    <div class="d-flex flex-column box-transferSteps box-transferSteps1">
+                        <div class="d-flex box">
+                            <div class="boxNumber"><span class="font-bold">1</span></div>
+                            <div class="boxTexts">
+                                <h4 class="font-bold hPublic">Unlock The Domain</h4>
+                                <p class="style-font pPublic mb-0">Contact your current provider to unlock your domain
+                                    name. We will lock the domain again automatically
+                                    once it comes over to us</p>
+                            </div>
+                        </div>
+                        <div class="d-flex box">
+                            <div class="boxNumber"><span class="font-bold">2</span></div>
+                            <div class="boxTexts">
+                                <h4 class="font-bold hPublic">Get EPP Key/Code</h4>
+                                <p class="style-font pPublic mb-0">After unlocking domain name. Request the EPP/Auth
+                                    code from your provider and note it down for the next
+                                    step. This will allow you to transfer your domain name
+                                    to Verpex</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-transferSteps box-transferSteps2">
+                        <div class="d-flex box">
+                            <div class="boxNumber"><span class="font-bold">3</span></div>
+                            <div class="boxTexts">
+                                <h4 class="font-bold hPublic">Make Your Order</h4>
+                                <p class="style-font pPublic mb-0">Head over to the purchase area of our website and add
+                                    the
+                                    domain
+                                    to your cart instead of registration it will be added
+                                    as "transfer" - when the invoice is paid you will be prompted in your client area to
+                                    enter the EPP code. Once submitted
+                                    you can sit back and wait for it to complete. Please remember it takes 5 to 7 days
+                                    to complete. *Transfers are free but
+                                    some
+                                    include a one year compulsory renewal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-transfer">
+            <img src="./images/Grid-Header.svg" alt="Grid Header" class="grid-header">
+            <div class="why-transfer-container px-90">
+                <div class="d-flex align-items-center gap-2 fx-head-text" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                    <span class="font-bold color-red text-capitalize">Transfer steps</span>
+                    <div class="line-red"></div>
+                </div>
+                <h1 class="font-bold text-capitalize subtitle-one " data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1000">Why Transfer Your Domain to TechZone </h1>
+                <p class=" style-font p-head text-capitalize">We offer low prices, 24/7 expert support, easy bulk
+                    transfers, and
+                    keep renewals
+                    at
+                    ultra-low pricesb with no hidden
+                    fees. How can you say no?</p>
+                <div class="d-flex flex-column fx-why-transfer w-100">
+                    <div class="d-flex fxBoxs">
+                        <div class="d-flex box-whyTransfer">
+                            <img src="./images/why-transfer1.svg" alt="Expert Support">
+                            <div class="texts">
+                                <h4 class="font-bold hPublic">Expert Support</h4>
+                                <p class="style-font pPublic mb-0">With our support experts, you can be sure that
+                                    everything
+                                    you need
+                                    will be done for you as quickly as possible.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex box-whyTransfer">
+                            <img src="./images/why-transfer2.svg" alt="Always In Your Name">
+                            <div class="texts">
+                                <h4 class="font-bold hPublic">Always In Your Name</h4>
+                                <p class="style-font pPublic mb-0">Your domain will always be registered under your
+                                    ownname.
+                                    No compromises or losing it in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex fxBoxs">
+                        <div class="d-flex box-whyTransfer">
+                            <img src="./images/why-transfer3.svg" alt="Free Privacy Protection">
+                            <div class="texts">
+                                <h4 class="font-bold hPublic">Free Privacy Protection</h4>
+                                <p class="style-font pPublic mb-0">Privacy is paramount to us, and with full WHOIS
+                                    privacy
+                                    protection that included and enabled as standard. This obscures
+                                    the domain ownership details from showing on a public 'whois' lookup. No extra
+                                    costs.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex box-whyTransfer">
+                            <img src="./images/why-transfer4.svg" alt="Transfer Out Free Of Charge">
+                            <div class="texts">
+                                <h4 class="font-bold hPublic">Transfer Out Free Of Charge</h4>
+                                <p class="style-font pPublic mb-0">No stealth fees for transferring out. Generate your
+                                    authorization codes and unlock your domain via our control panel. We
+                                    do all we can to avoid complicating matters and work towards simplifying all our
+                                    processes to save you valuable time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-seven">
+            <div class="section-seven-container">
+                <div class="d-flex align-items-center justify-content-center gap-2 fx-head-text ">
+                    <div class="line-red"></div>
+                    <span class="font-bold color-red" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">WHAT THEY SAY</span>
+                    <div class="line-red"></div>
+                </div>
+                <h1 class="font-bold text-capitalize subtitle-one text-center" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">Our User Kind Words </h1>
+                <p class="font-medium text-center p-head">Here are some testimonials from our user after using TechZone
+                    <br>
+                    Hosting .
+                </p>
+                <div class="slider-users">
+                    <div class="card-user">
+                        <h3 class="font-bold">It’s just incredible!</h3>
+                        <p class="font-medium mb-0">It's only been a month since I started using TechZone for my website
+                            hosting and domain
+                            registration, and the results
+                            have been outstanding! Managing my online presence is now smoother and more organized thanks
+                            to their outstanding
+                            services</p>
+                        <div class="border"></div>
+                        <div class="d-flex align-items-center fx-card-user">
+                            <img src="./images/user.svg" alt="user">
+                            <div class="card-user-texts">
+                                <h3 class="font-bold">It’s just incredible!</h3>
+                                <span class="style-font">Product Manager at Picko Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-user">
+                        <h3 class="font-bold">Satisfied User Here!</h3>
+                        <p class="font-medium mb-0">I've only used TechZone for website hosting and domains for a month,
+                            but I'm already very pleased with my experience! My
+                            website is now more stable and organized because of them</p>
+                        <div class="border"></div>
+                        <div class="d-flex align-items-center fx-card-user">
+                            <img src="./images/user1.svg" alt="user">
+                            <div class="card-user-texts">
+                                <h3 class="font-bold">Natasha Romanoff</h3>
+                                <span class="style-font">Black Widow</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-user">
+                        <h3 class="font-bold">No doubt, TechZone is the best!</h3>
+                        <p class="font-medium mb-0">"Great!" This is what I immediately think of when I think of
+                            TechZone I never imagined managing website hosting and
+                            domain registration could be this simple! I highly recommend it to any website owner,
+                            particularly if they have a large
+                            website.</p>
+                        <div class="border"></div>
+                        <div class="d-flex align-items-center fx-card-user">
+                            <img src="./images/user2.svg" alt="user">
+                            <div class="card-user-texts">
+                                <h3 class="font-bold">Moritika Kazuki</h3>
+                                <span class="style-font">Finance Manager at Mangan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-user">
+                        <h3 class="font-bold">It’s just incredible!</h3>
+                        <p class="font-medium mb-0">It's only been a month since I started using TechZone for my website
+                            hosting and domain
+                            registration, and the results
+                            have been outstanding! Managing my online presence is now smoother and more organized thanks
+                            to their outstanding
+                            services</p>
+                        <div class="border"></div>
+                        <div class="d-flex align-items-center fx-card-user">
+                            <img src="./images/user2.svg" alt="user">
+                            <div class="card-user-texts">
+                                <h3 class="font-bold">It’s just incredible!</h3>
+                                <span class="style-font">Product Manager at Picko Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center slider-users-arrows">
+                    <div class="box-img box-img1 d-flex align-items-center justify-content-center"><img
+                            src="./images/arrow-left.svg" alt="arrow-left" class="user-left"></div>
+                    <div class="box-img box-img2 d-flex align-items-center justify-content-center"><img
+                            src="./images/arrow-right.svg" alt="arrow-right" class="user-right"></div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between fx-companies-logos">
+                    <img src="./images/Company logo.png" alt="Company logo">
+                    <img src="./images/Company logo (1).png" alt="Company logo">
+                    <img src="./images/Company logo (2).png" alt="Company logo">
+                    <img src="./images/Company logo (3).png" alt="Company logo">
+                    <img src="./images/Company logo (4).png" alt="Company logo">
+                    <img src="./images/Company logo (5).png" alt="Company logo">
+                </div>
+            </div>
+        </section>
+        <section class="section-four">
+            <div class="section-four-container px-80">
+                <d class="d-flex align-items-center fx-section-four">
+                    <div class="section-four-texts">
+                        <div class="d-flex align-items-center gap-2 fx-head-text">
+                            <span class="font-bold">Contact Us</span>
+                            <div class="line-white"></div>
+                        </div>
+                        <h1 class="font-bold text-capitalize subtitle-one">24/7 Customer Support Ready to Guide You
+                            Anytime, Anywhere!</h1>
+                        <p class="font-medium">Unlimited storage, unmetered bandwidth, unbeatable hosting.
+                            Techzone got ya covered.</p>
+                        <h1 class="font-bold text-capitalize subtitle-one">Affordable & Free Migration</h1>
+                        <p class="font-medium">We provide affordable shared web hosting for various packages. Transfer
+                            your websites to us for free as part of your
+                            plan with free domain registration.</p>
+                        <button class="btn-red" onclick="window.location.href=''">
+                            <span class=" font-medium">WhatsApp Now</span>
+                            <img src="./images/arrow-btn.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="section-four-img">
+                        <img src="./images/ContactUs_illustrator.svg" alt="ContactUs">
+                    </div>
+                </d>
+            </div>
+        </section>
+        <section class="section-nine">
+            <img src="./images/Grid-Header.svg" alt="Grid Header" class="grid-header">
+            <div class="section-nine-container">
+                <div class="d-flex align-items-center justify-content-center gap-2 fx-head-text ">
+                    <div class="line-red"></div>
+                    <span class="font-bold color-red">FAQ’S</span>
+                    <div class="line-red"></div>
+                </div>
+                <h1 class="font-bold text-capitalize subtitle-one text-center">Frequently Asked Questions </h1>
+                <div class="d-flex flex-column FAQ-part">
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">Which pricing plan is right for me?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">We understand that each organization is unique, requiring specific
+                            features to support its workflows and projects. Above
+                            you can see the features included in the different plans to support your needs. If you need
+                            help in choosing the right
+                            plan for you, reach out to our sales team.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">How does our pricing work?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">What if I change my mind?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">Do you offer any discounted plans?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">What payment methods do you accept?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">Does TechZone offer plans to nonprofits and NGOs?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">How can I manage my billing?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                    <div class="dropdown-FAQ">
+                        <div class="d-flex align-items-center justify-content-between gap-2 fx-title-FAQ">
+                            <h5 class="font-bold">Can I change my plan?</h5>
+                            <img src="./images/dropdown.svg" alt="dropdown icon" class="dropdown-icon">
+                        </div>
+                        <p class="style-font content">Funding freemium long tail hypotheses first mover advantage
+                            assets
+                            ownership niche
+                            market startup investor. Burn rate
+                            termsheet leverage backing stock channels long tail twitter conversion. Customer
+                            founders growth hacking ecosystem value
+                            proposition direct mailing graphical user interface innovator stock. Startup scrum
+                            project bootstrapping advisor
+                            infographic agile development bandwidth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=" footer">
+        <div class="d-flex imgs-footer">
+            <img src="./images/img-footer1.png" alt="img">
+            <img src="./images/img-footer2.png" alt="img">
+            <img src="./images/img-footer3.png" alt="img">
+            <img src="./images/img-footer4.png" alt="img">
+        </div>
+        <div class="footer-container flex-column px-80">
+            <div class="d-flex fx-footer">
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part1">
+                    <a href="./index.html"><img src="./images/footer-logo.svg" alt="logo" class="footer-logo"></a>
+                    <h5 class="font-medium">Powering your online presence with seamless
+                        performance, robust reliability, and innovative
+                        features.</h5>
+                    <div class="d-flex align-items-center fx-info">
+                        <img src="./images/phone-icon.svg" alt="phone-icon">
+                        <p class="font-medium mb-0">+252 61 8601212 </p>
+                    </div>
+                    <div class="d-flex align-items-center fx-info">
+                        <img src="./images/email-icon.svg" alt="email-icon">
+                        <p class="font-medium mb-0">info@techzone.so</p>
+                    </div>
+                    <h3 class="font-bold">Social</h3>
+                    <h5 class="font-medium">We love being social. Follow us on social
+                        media.</h5>
+                    <div class="d-flex align-items-center fx-inks-footer">
+                        <a href=""><img src="./images/facebook-icon.svg" alt="facebook-icon"></a>
+                        <a href=""><img src="./images/twitter-icon.svg" alt="twitter-icon"></a>
+                        <a href=""><img src="./images/linkedin-icon.svg" alt="linkedin-icon"></a>
+                        <a href=""><img src="./images/youtube-icon.svg" alt="youtube-icon"></a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Social</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./aboutUs.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">About Us</span>
+                            </a>
+                            <a href="./privacyPolicy.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Privacy Policy </span>
+                            </a>
+                            <a href="./termsOfService.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Terms of Service</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Support</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./login.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Login Account</span>
+                            </a>
+                            <a href="./register.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Register Account </span>
+                            </a>
+                            <a href="./openTicket.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Submit Ticket</span>
+                            </a>
+                            <a href="./contactUs.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Support Center</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Hosting</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./webHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">WordPress Hosting </span>
+                            </a>
+                            <a href="./cloudHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Email Hosting</span>
+                            </a>
+                            <a href="./registerANewDomain.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="bold">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Products</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Healthcare</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime LMS</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime Restaurants</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime Retail</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p class="">© All Copyright 2024 by Techzone</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/landingPage.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- Tabs Cards-->
+    <script src="./js/tabs-cards.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
