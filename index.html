@@ -23,6 +23,7 @@
 </head>
 
 <body>
+    <div class="cover"></div>
     <div class="navbar-mobile">
         <div class="coverNav" onclick="toggleSidenav();">
             <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
@@ -114,7 +115,7 @@
                         </div>
                     </div>
                     <div class="border"></div>
-                    <a class="d-flex align-items-center gap-2">
+                    <a class="d-flex align-items-center gap-2 cartButton">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#913276">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -246,7 +247,7 @@
                     </div>
                 </div>
                 <div class=" align-items-center links-part links-part2">
-                    <a class="d-flex">
+                    <a class="d-flex cartButton">
                         <img src="./images/shopping-cart.svg" alt="View Cart">
                         <span class="style-font">View Cart</span>
                     </a>
@@ -274,14 +275,130 @@
     </header>
     <main>
         <div class="sectionCart">
-            <div class="d-flex">
-                <img src="" alt="">
-                <h2>Cart</h2>
+            <div class="d-flex titleCart">
+                <img src="./images/arrowCart.svg" alt="arrowCart">
+                <h2 class="font-bold">Cart</h2>
             </div>
-            <div class="listCart">
-                <div class="box-cart"></div>
-            </div>
+            <form action="">
+                <div class="sectionCart-texts">
+                    <h5 class="style-font">Product/Options</h5>
+                    <div class="listCart">
+                        <div class="box-cart">
+                            <div class="d-flex  justify-content-between fx-domainRegistration2">
+                                <div class="part1">
+                                    <div class="d-flex align-items-center justify-content-start fx-part1">
+                                        <h3 class="mb-0 font-bold whiteSpace-pre">Domain Registration</h3>
+                                        <img src="./images/pencil-edit.svg" alt="pencil edit">
+                                    </div>
+                                    <h4 class="font-medium">techzone.so <br>
+                                        » ID Protection</h4>
+                                </div>
+                                <div class="d-flex align-items-end part2">
+                                    <button class="btn-red">
+                                        <img src="./images/delete-02.svg" alt="">
+                                        <span class="font-ExtraBold">remove</span>
+                                    </button>
+                                    <div class="d-flex align-items-center ">
+                                        <button class="btn-outline" type="button"><span class="font-medium ">$14.95 USD
+                                                _
+                                                1 year</span><img src="./images/CaretDown-black.svg"
+                                                alt="CaretDown black"></button>
+                                        <div class="listStep">
+                                            <span class="font-medium">$24.95 USD _ 1 year</span>
+                                            <span class="font-medium">$34.95 USD _ 2 year</span>
+                                            <span class="font-medium">$44.95 USD _ 3 year</span>
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-cart">
+                            <div class="d-flex  justify-content-between fx-domainRegistration2">
+                                <div class="part1">
+                                    <div class="d-flex align-items-center justify-content-start fx-part1">
+                                        <h3 class="mb-0 font-bold whiteSpace-pre">Basic</h3>
+                                        <img src="./images/pencil-edit.svg" alt="pencil edit">
+                                    </div>
+                                    <h4 class="font-medium">techzone.so <br>
+                                        » ID Protection</h4>
+                                </div>
+                                <div class="d-flex align-items-end part2">
+                                    <button class="btn-red">
+                                        <img src="./images/delete-02.svg" alt="">
+                                        <span class="font-ExtraBold">remove</span>
+                                    </button>
+                                    <div class="d-flex align-items-center ">
+                                        <button class="btn-outline" type="button"><span class="font-medium ">$14.95 USD
+                                                _
+                                                1 year</span><img src="./images/CaretDown-black.svg"
+                                                alt="CaretDown black"></button>
+                                        <div class="listStep">
+                                            <span class="font-medium">$24.95 USD _ 1 year</span>
+                                            <span class="font-medium">$34.95 USD _ 2 year</span>
+                                            <span class="font-medium">$44.95 USD _ 3 year</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-cart">
+                            <div class="d-flex  justify-content-between fx-domainRegistration2">
+                                <div class="part1">
+                                    <div class="d-flex align-items-center justify-content-start fx-part1">
+                                        <h3 class="mb-0 font-bold whiteSpace-pre">Basic</h3>
+                                        <img src="./images/pencil-edit.svg" alt="pencil edit">
+                                    </div>
+                                    <h4 class="font-medium">techzone.so <br>
+                                        » ID Protection</h4>
+                                </div>
+                                <div class="d-flex align-items-end part2">
+                                    <button class="btn-red">
+                                        <img src="./images/delete-02.svg" alt="">
+                                        <span class="font-ExtraBold">remove</span>
+                                    </button>
+                                    <div class="d-flex align-items-center ">
+                                        <button class="btn-outline" type="button"><span class="font-medium ">$14.95 USD
+                                                _
+                                                1 year</span><img src="./images/CaretDown-black.svg"
+                                                alt="CaretDown black"></button>
+                                        <div class="listStep">
+                                            <span class="font-medium">$24.95 USD _ 1 year</span>
+                                            <span class="font-medium">$34.95 USD _ 2 year</span>
+                                            <span class="font-medium">$44.95 USD _ 3 year</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orderSummary">
+                    <h2 class="font-bold">Order Summary</h2>
+                    <div class="d-flex align-items-center justify-content-between  fx-orderSummary1">
+                        <h3 class="font-medium mb-0">Subtotal</h3>
+                        <h3 class="font-medium mb-0">$14.95 USD</h3>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between fx-orderSummary2">
+                        <h4 class="font-medium mb-0">Totals</h4>
+                        <div class="d-flex flex-column align-items-end">
+                            <h4 class="font-medium mb-0">$1.79 USD Monthly</h4>
+                            <h4 class="font-medium mb-0">$14.95 USD Annually</h4>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between fx-orderSummary mb-0">
+                        <h4 class="font-medium mb-0">Total Due Today Checkout</h4>
+                        <h1 class="font-ExtraBold mb-0">$14.95 USD</h1>
+                    </div>
+                    <div class="">
+                        <button class="btn-red font-bold">Submit Order</button>
+                    </div>
+
+
+                </div>
+            </form>
         </div>
         <section class="section-one">
             <div class="section-one-container px-90 pe-0">
@@ -301,17 +418,6 @@
                             Name</h3>
                         <form action="" class="new-domain">
                             <div class="d-flex align-items-center fx-new-domain">
-                                <div class="select-path">
-                                    <button type="button" class="font-ExtraBold">
-                                        <span class="select-span">.Com</span>
-                                        <img src="./images/CaretDown.svg" alt="CaretDown">
-                                    </button>
-                                    <div class="list-path-domains">
-                                        <span class="font-ExtraBold domain-item">.Com</span>
-                                        <span class="font-ExtraBold domain-item">.Org</span>
-                                    </div>
-                                </div>
-                                <div class="border-white"></div>
                                 <input type="text" placeholder="Enter your domain name" class="font-medium">
                                 <button type="submit" class="btnSearch font-bold">Search Now</button>
                             </div>
@@ -1233,21 +1339,16 @@
     <script src="./js/slick slider/slick.js"></script>
     <!-- Landing Page -->
     <script src="./js/landingPage.js"></script>
-    <!--Navbar JS-->
-    <script src="./js/navbar-pages.js"></script>
-    <!-- gsap Animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
-    <!-- <script src="./js/gsap.js"></script> -->
     <!-- Hover Card -->
     <script src="./js/tabs-cards.js"></script>
     <!-- Dropdown FAQ-->
     <script src="./js/dropdowns/dropdown-faq.js"></script>
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script>AOS.init();</script>
+    <script src="./js/viewCart.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
 </body>
 
 </html>

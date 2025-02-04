@@ -143,7 +143,10 @@
     font-size: 19px;
     line-height: 24px;
 }
-.boxs-stepOne .box-domians-links .fx-linkBox .fx-btns-domian{gap: 16px;}
+.boxs-stepOne .box-domians-links .fx-linkBox .fx-btns-domian{
+    gap: 16px;
+    align-items: center;
+}
 .btn-outline-black{
     border-radius: 20px;
     border: 1.5px solid #090B21;
@@ -184,12 +187,21 @@
 .boxs-stepOne .domians-links .href-suggestions:hover{
     transform: scale(0.93);
 }
+
 @media (min-width:1706.67px) {
      .boxs-stepOne .box-domians-links .fx-linkBox .text-green{font-size: 25px;}
     .boxs-stepOne .box-domians-links .fx-linkBox p{font-size: 25px;}
     .btn-outline-black{width: 120px;font-size: 12px;}
     .data-steps .btn-red{font-size: 13px;height: 47px;padding: 0 24px;}
     .data-steps .btn-red img{width: 20px;}
+
+}
+@media (min-width:1920px) {
+    .boxs-stepOne .browse-extensions h2,
+    .boxs-stepOne .box-domians-links .fx-linkBox .text-green{font-size: 28px;}
+    .boxs-stepOne .browse-extensions .item-browse-extensions p, .boxs-stepOne .browse-extensions .item-browse-extensions span{font-size: 25px;}
+    .btn-outline-black{font-size: 16px;}
+    .btn-outline-black{width: 150px;height: 50px;border-radius: 40px;}
 
 }
 @media (max-width:1228.8px) {
@@ -651,7 +663,7 @@ position: relative;
     text-underline-offset: 9%;
     text-underline-position: from-font;
 }
-.data-steps .step3-content  .fx-password{
+.fx-password{
     border-radius: 20px;
     border: 0.5px solid #090B21;
     width: 100%;
@@ -662,15 +674,15 @@ position: relative;
     line-height: 24px;
     background: #fff;
 }
-.data-steps .step3-content  .fx-password input{
+.fx-password input{
     border: none;
     background: none;
     padding: 0;
     height: 100%;
 }
 .data-steps .step3-content .formPassword{margin: 35px 0;}
-.data-steps .step3-content  .fx-password img{width: 24px;cursor: pointer;transition: 0.3s;}
-.data-steps .step3-content  .fx-password img:hover{transform: scale(0.9);}
+.fx-password img{width: 24px;cursor: pointer;transition: 0.3s;}
+.fx-password img:hover{transform: scale(0.9);}
 .data-steps .step3-content .btnPassword{margin-top: 25px;}
 .data-steps .step3-content .btnPassword button{width: max-content;white-space: normal;padding: 0 20px;}
 .data-steps .step3-content .box-red{
@@ -701,13 +713,13 @@ position: relative;
     padding: 20px;
     height: 110px;
 }
-.data-steps .step3-content input[type="radio"]:checked,
-.data-steps .step3-content input[type="radio"]:not(:checked) {
+ .data-steps input[type="radio"]:checked,
+ .data-steps input[type="radio"]:not(:checked) {
     position: absolute;
     left: -9999px;
 }
-.data-steps .step3-content input[type="radio"]:checked + label,
-.data-steps .step3-content input[type="radio"]:not(:checked) + label
+ .data-steps input[type="radio"]:checked + label,
+ .data-steps input[type="radio"]:not(:checked) + label
 {
     position: relative;
     padding-left: 4rem;
@@ -721,8 +733,8 @@ position: relative;
     height: 75px;
     object-fit: contain;
 }
-.data-steps .step3-content input[type="radio"]:checked + label:before,
-.data-steps .step3-content input[type="radio"]:not(:checked) + label:before {
+ .data-steps input[type="radio"]:checked + label:before,
+ .data-steps input[type="radio"]:not(:checked) + label:before {
     content: '';
     position: absolute;
     left: 0;
@@ -733,8 +745,8 @@ position: relative;
     border-radius: 100%;
     background: #FAE9ED;
 }
-.data-steps .step3-content input[type="radio"]:checked + label:after,
-.data-steps .step3-content input[type="radio"]:not(:checked) + label:after {
+ .data-steps input[type="radio"]:checked + label:after,
+ .data-steps input[type="radio"]:not(:checked) + label:after {
     content: '';
     width: 12px;
     height: 12px;
@@ -746,12 +758,12 @@ position: relative;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
-.data-steps .step3-content input[type="radio"]:not(:checked) + label:after {
+ .data-steps input[type="radio"]:not(:checked) + label:after {
     opacity: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
-.data-steps .step3-content input[type="radio"]:checked + label:after {
+ .data-steps input[type="radio"]:checked + label:after {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -825,12 +837,12 @@ position: relative;
     margin-top: 35px;
     font-size: 24px;
 }
-@media (min-width:2304px) {
+
+
+@media (min-width:1706.67px) {
     
 }
-@media (min-width:2048px) {
-    
-}
+
 @media (min-width:1920px) {
     .formGroupCheckBox label,
     .formGroupCheckBox label a{font-size: 25px;line-height: normal;}
@@ -845,10 +857,12 @@ position: relative;
     .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part1 .fx-part1{margin-bottom: 15px;}
     .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{font-size: 22px;}
     .data-steps .step3-content .domainRegistration .fx-domainRegistration1, .data-steps .step3-content .domainRegistration .fx-domainRegistration2{margin-bottom: 35px;}
+    .formGroupCheckBox input:checked + label:after{top: 10px;}
 }
-@media (min-width:1706.67px) {
+@media (min-width:2304px) {
     
 }
+
 @media (max-width:1396.36px) {
     
 }
@@ -872,7 +886,7 @@ position: relative;
     .formGroupCheckBox label:before{width: 5px;height: 5px;padding: 5px;}
     .data-steps .step3-content .submit-Order{width: 321px; height: 60px;font-size: 20px;}
     .data-steps .step3-content .phone-input-container
-    .data-steps .step3-content .fx-password{height: 55px;}
+    .fx-password{height: 55px;}
     .data-steps .step3-content .phone-input-container input,
     .data-steps .step3-content .phone-input-container span{font-size: 17px;}
     .data-steps .step3-content .domainRegistration .fx-domainRegistration2 .part2 .list span{font-size: 14px;}
@@ -896,7 +910,7 @@ position: relative;
     .formGroupCheckBox label a{font-size: 16px;}
     .data-steps .step3-content .submit-Order{width: 291px; height: 50px;font-size: 15px;}
     .data-steps .step3-content .dropdown-btn,
-    .data-steps .step3-content .fx-password,
+    .fx-password,
     .data-steps .step3-content .phone-input-container{height: 45px;}
     .data-steps .step3-content .phone-input-container input,
     .data-steps .step3-content .phone-input-container span{font-size: 15px;}
@@ -919,13 +933,13 @@ position: relative;
     .formGroupCheckBox label a{font-size: 14px;}
     .data-steps .step3-content .submit-Order{width: 251px; height: 45px;font-size: 13px;}
     .data-steps .step3-content .dropdown-btn,
-    .data-steps .step3-content .fx-password,
+    .fx-password,
     .data-steps .step3-content .phone-input-container{height: 40px;}
-    .data-steps .step3-content .fx-password img{width: 18px;}
+    .fx-password img{width: 18px;}
     .data-steps .step3-content .phone-input-container input,
     .data-steps .step3-content .phone-input-container span{font-size: 13px;} 
     .data-steps .step3-content .fxRadio-Pay{gap: 18px;}
-    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 3rem;}
+    .data-steps input[type="radio"]:checked + label, .data-steps input[type="radio"]:not(:checked) + label{padding-left: 3rem;}
 
 
 }
@@ -933,11 +947,11 @@ position: relative;
     .data-steps .step3-content .boxs-step-content3{gap: 24px;flex-direction: column;}
     .data-steps .step3-content .orderSummary{width: 80%;}
     .data-steps .step3-content .domainRegistration{width: 100%;}
-    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 2rem;}
-    .data-steps .step3-content input[type="radio"]:checked + label:before, .data-steps .step3-content input[type="radio"]:not(:checked) + label:before{
+    .data-steps input[type="radio"]:checked + label, .data-steps input[type="radio"]:not(:checked) + label{padding-left: 2rem;}
+    .data-steps input[type="radio"]:checked + label:before, .data-steps input[type="radio"]:not(:checked) + label:before{
     width: 16px;height: 16px;
     }
-    .data-steps .step3-content input[type="radio"]:checked + label:after, .data-steps .step3-content input[type="radio"]:not(:checked) + label:after {                                              
+    .data-steps input[type="radio"]:checked + label:after, .data-steps input[type="radio"]:not(:checked) + label:after {                                              
         width: 8px;
         height: 8px;
         top: 28.5px;
@@ -955,8 +969,8 @@ position: relative;
         justify-content:center;
         height: 70px;
     }
-    .data-steps .step3-content input[type="radio"]:checked + label, .data-steps .step3-content input[type="radio"]:not(:checked) + label{padding-left: 1.5rem;}
-    .data-steps .step3-content input[type="radio"]:checked + label:after{top: 29px;left: 5px;}
+    .data-steps input[type="radio"]:checked + label, .data-steps input[type="radio"]:not(:checked) + label{padding-left: 1.5rem;}
+    .data-steps input[type="radio"]:checked + label:after{top: 29px;left: 5px;}
     .data-steps .step3-content .fxPayment-details{margin-bottom: 8px;}
     .data-steps .step3-content .fxPayment-details1{gap: 4px;}
     .data-steps .step3-content .orderSummary{width: 100%;}
@@ -1027,7 +1041,7 @@ position: relative;
     .data-steps .step3-content .fx-form-coupon,
     .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
-    .data-steps .step3-content .fx-password{height: 80px;font-size: 24px;}
+    .fx-password{height: 80px;font-size: 24px;}
      label{font-size: 25px;margin-bottom: 20px;}
     .data-steps .btn-red{font-size: 21px;width: 180px;height: 60px;}
     .data-steps .btn-red img{width: 40px;}
@@ -1046,7 +1060,7 @@ position: relative;
      .data-steps .step3-content .fx-form-coupon,
     .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
-    .data-steps .step3-content .fx-password,
+    .fx-password,
     .data-steps .step3-content .dropdown-btn{font-size: 17px;height: 55px;}
     .steps-section .fx-steps-section .fx-step p,
     .steps-section .fx-steps-section .fx-step .number-step span{font-size: 18px;}
@@ -1058,7 +1072,7 @@ position: relative;
      .data-steps .step3-content .fx-form-coupon,
     .data-steps .step3-content .dropdown-btn,
     .data-steps .step3-content .phone-input-container,
-    .data-steps .step3-content .fx-password,
+    .fx-password,
     .data-steps .step3-content .dropdown-btn{font-size: 15px;height: 45px;}
     .steps-section .fx-steps-section .fx-step p,
     .steps-section .fx-steps-section .fx-step .number-step span{font-size: 18px;}
@@ -1068,4 +1082,100 @@ position: relative;
 
 @media (max-width:512px) {
     .steps-section{margin-top: 40px;}
+}
+/* Order Now  */
+.order-steps input[type="radio"]:checked + label:before, 
+.order-steps input[type="radio"]:not(:checked) + label:before{top:0rem;}
+.order-steps input[type="radio"]:checked + label:after,
+ .order-steps input[type="radio"]:not(:checked) + label:after{top: 7.5px;}
+.order-steps input[type="radio"]:checked + label,
+.order-steps input[type="radio"]:not(:checked) + label{padding-left: 2.5rem;padding-top: 2px;}
+.order-steps .fxRadio-Pay{
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.order-steps .fxRadio-Pay span{
+    color: #090B21;
+    font-size: 20px;
+}
+.order-steps .step-content .form-domain h2{margin-bottom: 45px;}
+.order-steps .boxs-order2 .fx-check-point p{font-size: 22px;}
+.order-steps .boxs-order2 .fx-check-point{gap: 15px;}
+.order-steps .boxs-order2 .fx-check-points{margin-bottom: 0;}
+.order-steps .boxs-order2 .fx-check-point img{width: 25px;}
+.order-steps .step3-content .boxs-order2 h2{margin-bottom: 15px;}
+.order-steps .step3-content .boxs-order2 .domainRegistration .fx-domainRegistration1,
+.order-steps .step3-content .boxs-order2 .domainRegistration .fx-domainRegistration2{margin-bottom: 0;}
+.order-steps .step3-content .boxs-order2 .chooseBilling{font-size: 22px;}
+.order-steps .step3-content .boxs-order2 .orderSummary h2{margin-bottom: 3rem;}
+.order-steps .step3-content .boxs-order2 .orderSummary .fx-orderSummary2{margin-bottom: 50px;}
+/* Just to copy */
+@media (min-width:2304px) {
+    
+}
+@media (min-width:2048px) {
+    
+}
+@media (min-width:1920px) {
+    .order-steps .boxs-order2 .fx-check-point p,
+    .order-steps .step3-content .boxs-order2 .chooseBilling{font-size: 25px;}
+    .order-steps .boxs-order2 .fx-check-points{gap: 4px;}
+    .data-steps .step3-content h4{font-size: 28px;line-height: 45px;}
+    .data-steps .step3-content h3{font-size: 32px;}
+    .data-steps .step3-content h2,
+    .data-steps .step3-content h1{font-size: 36px;}
+    .order-steps .fxRadio-Pay span{font-size: 25px;}
+    .order-steps .fxRadio-Pay{gap: 25px;}
+}
+@media (min-width:1706.67px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .order-steps .step-content .form-domain h2{margin-bottom: 35px;}
+    .order-steps .fxRadio-Pay span,
+    .order-steps .boxs-order2 .fx-check-point p,
+    .order-steps .step3-content .boxs-order2 .chooseBilling{font-size: 18px;}
+    .order-steps .fxRadio-Pay{gap: 15px;}
+    .order-steps .step3-content .boxs-order2 .orderSummary .fx-orderSummary2{margin-bottom: 35px;}
+}
+@media (max-width:1024px) {
+    .order-steps .fxRadio-Pay{gap: 12px;}
+    .order-steps .fxRadio-Pay span,
+      .order-steps .boxs-order2 .fx-check-point p,
+    .order-steps .step3-content .boxs-order2 .chooseBilling{font-size: 15px;}
+    .order-steps input[type="radio"]:checked + label:before,
+    .order-steps input[type="radio"]:not(:checked) + label:before{
+        top: 5px;
+        left: 5px;
+        width: 16px;
+        height: 16px;
+    }
+    .order-steps input[type="radio"]:checked + label:after,
+    .order-steps input[type="radio"]:not(:checked) + label:after{
+        width: 8px;height: 8px;
+        top: 9.5px;
+        left: 9.5px;
+    }
+    .order-steps input[type="radio"]:checked + label,
+     .order-steps input[type="radio"]:not(:checked) + label{
+      padding-left: 2rem;
+    }
+    .order-steps .boxs-order2 .fx-check-points{gap: 7px;}
+}
+@media (max-width:877.71px) {
+        .order-steps .fxRadio-Pay span{font-size: 14px;}
+        .order-steps .fxRadio-Pay{gap: 8px;}
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:614.4px) {
+    .order-steps input[type="radio"]:checked + label:after, .order-steps input[type="radio"]:not(:checked) + label:after{top: 10px;}
+}
+@media (max-width:512px) {
+    
 }

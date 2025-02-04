@@ -1,6 +1,7 @@
 function toggleSidenav() {
   document.body.classList.toggle("sidenav-active");
 }
+
 function closeSidenav() {
   document.body.classList.remove();
 }
@@ -37,4 +38,8 @@ $(document).ready(function () {
     parent.toggleClass("active");
     parent.find(".list-link").slideToggle(200);
   });
+});
+////////////////////////////////////////////
+$(".cartButton").click(function () {
+  document.body.classList.remove("sidenav-active");
 });

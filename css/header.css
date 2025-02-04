@@ -147,7 +147,7 @@ nav, .hamburger, .coverNav {
 .navbar-mobile{
   display: none;
   position: relative;
-  z-index: 1000;
+  z-index: 900;
   position: absolute;
   width: 100%;
 

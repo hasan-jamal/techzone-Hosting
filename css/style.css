@@ -85,6 +85,8 @@
     background: none;
     color: #fff;
     font-size: 16px;
+    border:none;
+    padding: 8px;
 }
 .section-one .new-domain input::placeholder{
     color: #fff;
@@ -897,4 +899,315 @@
     .section-nine .dropdown-FAQ{padding: 16px 24px;}
     .section-nine .dropdown-FAQ p{font-size: 15px;}
     .section-nine .dropdown-FAQ h5{font-size: 18px;}
+}
+/* Section Cart Style */
+.sectionCart{
+    width: 35%;
+    border-radius: 20px;
+    background: #FFF;
+    height: 100vh;
+      display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease-in-out;
+  z-index: 999;
+  opacity: 0;
+  cursor: pointer;
+}
+.sectionCart.open {
+  transform: translateX(0);
+   display: block;
+     opacity: 1;
+}
+.cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+.cover.visible {
+  display: block;
+  opacity: 1;
+}
+.sectionCart .titleCart{
+    border-radius: 20px 20px 30px 30px;
+    background: linear-gradient(85deg, #913276 0%, #472667 100%);
+    gap: 20px;
+    width: 100%;
+    height: 90px;
+    padding: 0 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sectionCart .titleCart img{
+    width: 20px;
+    height: 20px;
+}
+.sectionCart .titleCart h2{
+    color: #FFF;
+    font-size: 25px;
+    line-height: 24px;
+}
+.sectionCart .sectionCart-texts{
+    padding: 0 30px;}
+.sectionCart .sectionCart-texts h5{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sectionCart .sectionCart-texts .listCart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 40vh;
+    overflow-y: auto;
+    padding-bottom: 5rem;
+    padding-right: 10px;
+}
+.sectionCart .sectionCart-texts .listCart::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #CB1F49;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.sectionCart .sectionCart-texts .listCart::-webkit-scrollbar
+{
+  width: 3px;
+	background-color: #F5F5F5;
+}
+.sectionCart .sectionCart-texts .listCart::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #CB1F49;
+	background-color: #472667 ;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2{
+    align-items: end;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+.sectionCart .sectionCart-texts .listCart .part1{
+    padding-bottom: 38px;
+}
+.sectionCart .sectionCart-texts .listCart .fx-part1{gap: 8px;margin-bottom: 15px;}
+.sectionCart .sectionCart-texts .listCart .fx-part1 h3{
+    color: #000;
+    font-size: 25px;
+    line-height: 30px;
+}
+.sectionCart .sectionCart-texts .listCart .fx-part1 img{
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.sectionCart .sectionCart-texts .listCart .fx-part1 img:hover{transform: scale(0.9);}
+.sectionCart .sectionCart-texts .listCart .part1 h4{
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+.sectionCart .sectionCart-texts .listCart .part2{gap: 10px;flex-direction: column;}
+.sectionCart .sectionCart-texts .listCart .part2 .btn-red{
+    height: 45px;
+    width:115px;
+    padding: 0px 18px;
+    font-size: 14px;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .d-flex {
+    position: relative;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline {
+    height: 40px;
+    padding: 0 20px;
+    background: #FFFAF8;
+    border-radius: 20px;
+    border: 1.5px solid #090B21;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    width: max-content;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline img {
+    width: 16px;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .listStep {
+    padding: 10px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background: #FFFAF8;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+    display: none;
+}
+.sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .listStep span {
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.sectionCart .orderSummary{
+    border-radius: 20px 20px 0px 0px;
+    background: #FFFAF8;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 30px;
+}
+.sectionCart .orderSummary h2{
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.sectionCart .orderSummary h3{
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+.sectionCart .orderSummary h4{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sectionCart .orderSummary h1{
+    color: #000;
+    font-size: 25px;
+    line-height: 24px
+}
+.sectionCart .orderSummary .fx-orderSummary2{
+    margin-bottom: 20px;
+}
+.sectionCart .orderSummary .fx-orderSummary{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000;
+}
+.sectionCart .orderSummary .btn-red{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 24px;
+    height: 50px;
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:2048px) {
+}
+@media (min-width:1920px) {
+ .sectionCart .sectionCart-texts .listCart .fx-part1 h3{font-size: 30px;}
+ .sectionCart .sectionCart-texts .listCart .part1 h4{font-size: 24px;}
+  .sectionCart .sectionCart-texts .listCart .part1 h4 br{display: none;}
+  .sectionCart .sectionCart-texts .listCart .part2 .btn-red{width: 130px;height: 50px;}
+  .sectionCart .sectionCart-texts .listCart .part2 .btn-red span{font-size: 18px;}
+  .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline,
+  .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .listStep span{font-size: 18px;}
+  .sectionCart .sectionCart-texts h5{font-size: 25px;}
+  .sectionCart .orderSummary h2{font-size: 24px;}
+  .sectionCart .orderSummary h3{font-size: 22px;}
+  .sectionCart .orderSummary .fx-orderSummary1{margin-bottom: 1rem;}
+  .sectionCart .orderSummary h4{font-size: 20px;}
+  .sectionCart .orderSummary .btn-red{font-size: 24px;height: 60px;}
+}
+@media (max-width:1396.36px) {
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2{
+        flex-direction: column;
+        align-items: start;
+    }
+    .sectionCart .sectionCart-texts .listCart .part2{width: 100%;}
+    .sectionCart .sectionCart-texts .listCart .part1{width: 100%;padding-bottom: 0px;}
+    .sectionCart .sectionCart-texts .listCart .part1 h4 br{display: none;}
+}
+@media (max-width:1228.8px) {
+    .sectionCart .titleCart{height: 65px;}
+    .sectionCart .titleCart h2{font-size: 20px;}
+    .sectionCart .sectionCart-texts .listCart .fx-part1 h3{font-size: 20px;}
+    .sectionCart .sectionCart-texts h5{margin-bottom: 20px;}
+    .sectionCart .sectionCart-texts .listCart .part1 h4{font-size: 15px;}
+    .sectionCart .sectionCart-texts .listCart .fx-part1{gap: 4px;margin-bottom: 2px;}
+    .sectionCart .orderSummary h2{font-size: 17px;margin-bottom: 15px;}
+    .sectionCart .orderSummary h3{font-size: 15px;}
+    .sectionCart .orderSummary h1{font-size: 20px;}
+    .sectionCart .orderSummary .btn-red{margin-top: 15px;font-size: 15px;height: 45px;}
+    .sectionCart .orderSummary .fx-orderSummary{padding-bottom: 10px;}
+    .sectionCart .orderSummary h4{font-size: 14px;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline{height: 35px;font-size: 12px;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .listStep span{font-size: 12px;}
+    .sectionCart .sectionCart-texts .listCart .part2 .btn-red{font-size: 12px;height: 40px;}
+    .sectionCart .sectionCart-texts .listCart .part2 .btn-red img{width: 22px;}
+    
+}
+@media (max-width:1024px) {
+    .sectionCart .titleCart{height: 55px;gap: 12px;margin-bottom: 10px;}
+    .sectionCart .titleCart h2{font-size: 17px;}
+    .sectionCart .titleCart img {width: 15px;height: 15px;}
+       .sectionCart .sectionCart-texts .listCart .fx-part1 h3{font-size: 15px;}
+    .sectionCart .sectionCart-texts h5{margin-bottom: 15px;font-size: 16px;}
+    .sectionCart .sectionCart-texts .listCart .part1 h4{font-size: 12px;}
+    .sectionCart .orderSummary h2{font-size: 15px;margin-bottom: 12px;}
+    .sectionCart .orderSummary h3{font-size: 13px;}
+    .sectionCart .orderSummary h1{font-size: 17px;}
+    .sectionCart .orderSummary .btn-red{margin-top: 15px;font-size: 13px;height: 35px;}
+    .sectionCart .orderSummary .fx-orderSummary{padding-bottom: 8px;}
+    .sectionCart .orderSummary h4{font-size: 12px;}
+    .sectionCart .orderSummary{padding: 16px 20px 6px 20px;}
+    .sectionCart .sectionCart-texts .listCart .fx-part1 img{width: 18px;height: 18px;}
+    .sectionCart .sectionCart-texts .listCart .part2 .btn-red{height: 32px;width: 70px;}
+    .sectionCart .sectionCart-texts .listCart .part2 .btn-red img{width: 16px;}
+    .sectionCart .sectionCart-texts .listCart .part2 .btn-red span{font-size: 9px;}
+    .sectionCart .sectionCart-texts .listCart .part2{flex-direction: row;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2{gap: 8px;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline{height: 30px;font-size: 10px;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .listStep span{font-size: 10px;}
+    .sectionCart .sectionCart-texts .listCart .fx-domainRegistration2 .part2 .btn-outline img{width: 12px;}
+    .sectionCart .orderSummary .fx-orderSummary2{margin-bottom: 8px;}
+}
+@media (max-width:877.71px) {
+    .sectionCart {height: 100%;overflow-y: auto;}
+    .sectionCart form{height: 100%;position: relative;}
+    .sectionCart::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px #CB1F49;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    .sectionCart::-webkit-scrollbar{
+    width: 3px;
+        background-color: #F5F5F5;
+    }
+    .sectionCart::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px #CB1F49;
+        background-color: #472667 ;
+    }
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:614.4px) {
+    .sectionCart{width: 85%;height: 100vh;overflow-y: hidden;}
+    .sectionCart form{position: static;}
+    .sectionCart .sectionCart-texts .listCart{height: 45vh;}
+    .sectionCart .sectionCart-texts{padding: 0 10px;}
+}
+@media (max-width:512px) {
+    
 }

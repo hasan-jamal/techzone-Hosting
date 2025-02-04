@@ -1,0 +1,301 @@
+/* Login Page */
+.loginPage .fx-loginPage{
+    align-items: normal;
+    height: 120vh;
+}
+.loginPage .fx-loginPage .loginPage-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 100px 100px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.loginPage .fx-loginPage .loginPage-form form{width: 100%;}
+.loginPage .fx-loginPage .logo{
+    width: 80%;
+    margin-bottom: 20px;
+    display: block;
+}
+.loginPage .fx-loginPage h5{
+    color: #090B21;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 65px;
+}
+.loginPage .fx-loginPage .form-group{margin-bottom: 20px;}
+.loginPage .fx-loginPage .forgetPaswword{
+    color: #090B21;
+    font-size: 16px;
+    text-align: end;
+    display: block;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+.loginPage .fx-loginPage .forgetPaswword:hover{transform: scale(0.97);}
+.public-auth .btn-red{
+    border-radius: 30px;
+    background: var(--Color3, #CB1F49);
+    box-shadow: 0px 12.117px 24.233px 0px rgba(203, 31, 73, 0.10);
+    width: 100%;
+    height: 56px;
+    font-size:19px;
+}
+.loginPage .fx-loginPage .fx-or{gap: 15px;margin: 20px 0;}
+.loginPage .fx-loginPage .fx-or .border{
+    width: 100%;
+    height: 1px;
+    background: #C2C2C2;
+}
+.loginPage .fx-loginPage .fx-or span{
+    color: #C2C2C2;
+    font-size: 14.136px;
+    font-weight: 400;
+}
+.public-auth .btn-outline-white {
+    color: #472667;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1.01px solid var(--Color1, #472667);
+    width: 100%;
+    height: 56px;
+}
+.public-auth .btn-outline-white:hover{color: #fff;}
+.loginPage .fx-loginPage .loginPage-img{
+    background-image: url(../images/backAuth.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginPage .fx-loginPage .loginPage-img img{width: 80%;display: block;margin: auto;}
+
+@media (min-width:1920px) {
+   .public-auth .btn-outline-white,
+    .public-auth .btn-red {
+        font-size: 24px;
+        height: 70px;
+    }
+    .loginPage .fx-loginPage .forgetPaswword{font-size: 20px;}
+    .loginPage .fx-loginPage .form-group{margin-bottom: 30px;}
+    .loginPage .fx-loginPage .forgetPaswword{margin-bottom: 35px;}
+}
+@media (min-width:2048px) {
+    .loginPage .fx-loginPage{height: 110vh;}
+}
+@media (min-width:3072px) {
+ .loginPage .fx-loginPage{height: 77vh;}
+}
+@media (min-width:4608px) {
+ .loginPage .fx-loginPage{height: 60vh;}
+}
+@media (min-width:6144px) {
+.loginPage .fx-loginPage{height: 50vh;}
+}
+@media (max-width:1396.36px) {
+    .loginPage .fx-loginPage .loginPage-form{padding: 70px;width: 45%;}
+    .loginPage .fx-loginPage{height: 100%;}
+}
+@media (max-width:1228.8px) {
+    .loginPage .fx-loginPage h5{margin-bottom: 40px;}
+ .loginPage .fx-loginPage h5{font-size: 22px;}
+ .public-auth .btn-red,
+.public-auth .btn-outline-white{height: 50px;font-size: 17px;}
+ .loginPage .fx-loginPage .fx-or{margin: 15px 0;}
+}
+@media (max-width:877.71px) {
+    .loginPage .fx-loginPage .loginPage-img{display: none;}
+    .loginPage .fx-loginPage .loginPage-form{padding: 50px 50px 50px 50px;}
+     .public-auth .btn-red,
+.public-auth .btn-outline-white{height: 45px;font-size: 14px;}
+   .loginPage .fx-loginPage h5{margin-bottom:24px;}
+}
+@media (max-width:768px) {
+    .loginPage .fx-loginPage{align-items: center;justify-content: center;}
+    .loginPage .fx-loginPage .loginPage-form{width: 70%;}
+}
+@media (max-width:614.4px) {
+      .loginPage .fx-loginPage .loginPage-form{width: 100%;padding: 50px 20px;}
+}
+/* Register Page */
+.registerPage .registerPage-form{
+    width: 60%;
+    padding: 60px;
+}
+.registerPage .registerPage-img{
+    background-image: url(../images/backAuth.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerPage .registerPage-img img{width: 80%;}
+.registerPage .registerPage-form h5{
+    color: #090B21;
+    text-align: start;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.registerPage .data-steps .step3-content .fx-formGroup,
+.registerPage .data-steps .step3-content .formCountry{padding-left: 0px;}
+.registerPage .fx-formGroup{gap: 40px;}
+.registerPage .fx-btnRegister{gap: 25px;}
+.registerPage .btn-red,
+.registerPage .btn-outline-white{width: 200px;}
+.registerPage .formGroupCheckBox input:checked + label:after{top: 7px;}
+@media (min-width:1920px) {
+    .registerPage .btn-red, .registerPage .btn-outline-white{width: 250px;height: 70px;}
+    .registerPage .formGroupCheckBox input:checked + label:after{top: 10px;left: 8px;}
+}
+@media (max-width:1228.8px) {
+    .registerPage .formGroupCheckBox input:checked + label:after{top: 5px;left: 6px;}
+}
+@media (max-width:1024px) {
+        .registerPage .formGroupCheckBox input:checked + label:after{top: 3px;}
+}
+@media (max-width:877.71px) {
+    .registerPage .registerPage-form{padding: 60px 40px;}
+    .registerPage .formGroupCheckBox input:checked + label:after{top: 1px;}
+    .registerPage .btn-red, .registerPage .btn-outline-white{width: 150px;height: 45px;}
+}
+@media (max-width:768px) {
+    .registerPage .registerPage-form{width: 100%;padding: 40px 20px;}
+     .registerPage .registerPage-img{display: none;}
+}
+@media (max-width:614.4px) {
+    .registerPage .data-steps .step3-content .fx-formGroup, .registerPage .data-steps .step3-content .formCountry{gap: 12px;}
+    .registerPage .fx-btnRegister{gap: 20px;}
+}
+@media (max-width:512px) {
+    
+}
+/* Auth Pages */
+.authPage{
+    position: relative;
+    background-image: url(../images/backAuth.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+    padding: 10rem 0;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.authPage .boxAuth{
+    border-radius: 10px;
+    background: #FFF;
+    padding: 60px 40px;
+    gap: 24px;
+    width: 40%;
+    margin: auto;
+}
+.authPage .btnBack{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+.authPage h1{
+    color: #090B21;
+    font-size: 42px;
+    line-height: 52px;
+}
+.authPage p{
+    color: #828282;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.authPage .logo{
+    width: 200px;
+}
+.authPage .form-group .emailLabel {
+    color: #153060;
+    font-size: 14px;
+    line-height: 20px; 
+    letter-spacing: 0.25px;
+}
+.authPage .form-group input{font-size: 16px;}
+.authPage .btnSubmit{
+    width: 100%;
+    margin-top: 24px;
+}
+.authPage .successAuth{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.authPage .fx-formGroup{gap: 24px;}
+.authPage .fx-formGroup .form-group{
+    flex: 1 1 calc(100% - 24px);
+    max-width: calc(100% - 0px);
+}
+/* Just to copy */
+@media (min-width:2304px) {
+    
+}
+@media (min-width:2048px) {
+    
+}
+@media (min-width:1920px) {
+    .authPage{padding: 14rem 0;}
+    .authPage .form-group .emailLabel{font-size: 18px;}
+    .authPage .form-group input{font-size: 20px;}
+    .authPage p{font-size: 20px;}
+    .authPage h1{font-size: 50px;}
+    .authPage .logo{width: 250px;}
+    .authPage .boxAuth{gap: 38px;}
+    .authPage .btnSubmit{font-size: 22px;}
+}
+@media (min-width:1706.67px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .authPage{padding: 7rem 0 5rem 0;}
+    .authPage .boxAuth{gap: 24px;width: 48%;padding: 30px;}
+    .authPage h1{font-size: 35px;}
+    .authPage .btnBack{top: 2rem;left: 1rem;}
+}
+@media (max-width:1024px) {
+    .authPage h1{font-size: 35px;}
+}
+@media (max-width:877.71px) {
+    .authPage .boxAuth{width: 60%}
+    .authPage .btn-red span{font-size:1rem ;}
+    .authPage .btn-red img{width: 15px;}
+}
+@media (max-width:768px) {
+        .authPage h1{font-size: 28px;}
+    .authPage-container{padding: 0 20px;}
+     .authPage .boxAuth{width: 100%;padding: 40px 20px;}
+      .authPage .btn-red{height: 45px;}
+      .authPage .btnBack{top: 2rem;left: 1rem;}
+      .authPage .successAuth{width: 100px;height: 100px;}
+}
+@media (max-width:614.4px) {
+    .forgetPaswword2 .boxAuth{gap: 4px;}
+    .authPage .boxAuth{gap: 10px;}
+    .authPage .logo{width: 150px;}
+    .authPage .fx-formGroup{gap: 12px;}
+}
+@media (max-width:512px) {
+    
+}

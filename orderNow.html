@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Hosting</title>
+    <link rel="icon" href="./images/TECHZONE-LOGO.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/steps.css">
+    <link rel="stylesheet" href="./css/pages.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/TECHZONE-LOGO.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/TECHZONE-LOGO.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font">Home</a>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list ">
+                            <a href="#" class="style-font">Hosting</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="./webHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>WordPress Hosting</span>
+                            </a>
+                            <a href="./cloudHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Email Hosting</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list">
+                            <a href="#" class="style-font">Domain</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="./registerANewDomain.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font">About</a>
+                    <div class="border"></div>
+                    <div class="dropdown-navbar-mb">
+                        <div class="d-flex align-items-center justify-content-between w-100 btn-list">
+                            <a href="#" class="style-font">Products</a>
+                            <img src="./images/arrows-list.svg" alt="arrows list">
+                        </div>
+                        <div class="list-link">
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Healthcare</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime LMS</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Restaurants</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Retail</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#913276">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3H3.21922L6.78345 17.2569C5.73276 17.7236 5 18.7762 5 20C5 21.6569 6.34315 23 8 23C9.65685 23 11 21.6569 11 20C11 19.6494 10.9398 19.3128 10.8293 19H15.1707C15.0602 19.3128 15 19.6494 15 20C15 21.6569 16.3431 23 18 23C19.6569 23 21 21.6569 21 20C21 18.3431 19.6569 17 18 17H8.78078L8.28078 15H18C20.0642 15 21.3019 13.6959 21.9887 12.2559C22.6599 10.8487 22.8935 9.16692 22.975 7.94368C23.0884 6.24014 21.6803 5 20.1211 5H5.78078L5.15951 2.51493C4.93692 1.62459 4.13696 1 3.21922 1H2ZM18 13H7.78078L6.28078 7H20.1211C20.6742 7 21.0063 7.40675 20.9794 7.81078C20.9034 8.9522 20.6906 10.3318 20.1836 11.3949C19.6922 12.4251 19.0201 13 18 13ZM18 20.9938C17.4511 20.9938 17.0062 20.5489 17.0062 20C17.0062 19.4511 17.4511 19.0062 18 19.0062C18.5489 19.0062 18.9938 19.4511 18.9938 20C18.9938 20.5489 18.5489 20.9938 18 20.9938ZM7.00617 20C7.00617 20.5489 7.45112 20.9938 8 20.9938C8.54888 20.9938 8.99383 20.5489 8.99383 20C8.99383 19.4511 8.54888 19.0062 8 19.0062C7.45112 19.0062 7.00617 19.4511 7.00617 20Z"
+                                    fill="#913276"></path>
+                            </g>
+                        </svg>
+                        <span class="style-font">View Cart</span>
+                    </a>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g fill="#913276" fill-rule="evenodd" clip-rule="evenodd">
+                                    <path
+                                        d="M8.302 3.288A3.633 3.633 0 002.756 7.76c.124.237.112.49.102.61a2.984 2.984 0 01-.084.468 7.853 7.853 0 01-.2.655c.26-.09.52-.17.75-.223a.7.7 0 11.312 1.365c-.34.078-.837.258-1.278.434a23.211 23.211 0 00-.701.295l-.042.018-.01.005-.003.001a.7.7 0 01-.925-.927v-.001l.002-.004.008-.018.03-.07a21.252 21.252 0 00.43-1.047c.113-.3.211-.592.27-.822.021-.09.034-.157.041-.205a5.033 5.033 0 017.74-6.082.7.7 0 01-.896 1.076zM1.463 8.226v0z">
+                                    </path>
+                                    <path
+                                        d="M4.75 9.333a5.083 5.083 0 119.657 2.221c.006.033.015.077.029.133.05.197.14.453.248.734.087.223.178.443.262.646l.06.146c.049.118.094.23.131.326.03.082.074.2.097.306a.75.75 0 01-.734.905c-.169 0-.332-.04-.447-.072a4.867 4.867 0 01-.394-.134c-.188-.072-.402-.162-.606-.248l-.216-.09a7.634 7.634 0 00-.705-.265 1.739 1.739 0 00-.095-.026A5.083 5.083 0 014.75 9.333zm1.5 0a3.583 3.583 0 116.763 1.654c-.124.239-.12.485-.11.614.01.155.043.313.08.456.054.214.132.448.216.676a7.37 7.37 0 00-.643-.231 2.456 2.456 0 00-.443-.093 1.113 1.113 0 00-.626.104 3.583 3.583 0 01-5.237-3.18zm8.15 2.16l-.001-.012v.013z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="style-font">Support</span>
+                    </a>
+                    <div class="border"></div>
+                    <a class="d-flex align-items-center gap-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+                                    stroke="#913276" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                                <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#913276"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                        <span class="style-font">Login</span>
+                    </a>
+                    <div class="border"></div>
+                    <button class="btn-purple">
+                        <span class="font-medium">get Started</span>
+                        <img src="./images/arrow-btn.svg" alt="arrow">
+                    </button>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="d-flex align-items-center fx-header">
+            <div class="logo-header">
+                <img src="./images/TECHZONE-LOGO.svg" alt="TECHZONE LOGO" onclick="window.location.href='./index.html'">
+            </div>
+            <div class="d-flex align-items-center links">
+                <div class="align-items-center links-part links-part1">
+                    <a href="./index.html" class="font-medium">Home</a>
+                    <div class="box-link">
+                        <a class="link" data-target="hosting">
+                            <span class="font-medium">Hosting</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="hosting">
+                            <a href="./webHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>WordPress Hosting</span>
+                            </a>
+                            <a href="./cloudHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Email Hosting</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-link">
+                        <a class="link" data-target="domain">
+                            <span class="font-medium">Domain</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="domain">
+                            <a href="./registerANewDomain.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./aboutUs.html" class="font-medium">About</a>
+                    <div class="box-link">
+                        <a class="link" data-target="products">
+                            <span class="font-medium">Products</span>
+                            <img src="./images/arrowDown.svg" alt="arrow Down">
+                        </a>
+                        <div class="list" id="products">
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Healthcare</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime LMS</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Restaurants</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>Prime Retail</span>
+                            </a>
+                            <a href="" class="font-medium">
+                                <img src="./images/arrows-list.svg" alt="arrows">
+                                <span>CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" align-items-center links-part links-part2">
+                    <a class="d-flex">
+                        <img src="./images/shopping-cart.svg" alt="View Cart">
+                        <span class="style-font">View Cart</span>
+                    </a>
+                    <a class="d-flex">
+                        <img src="./images/support-icon.svg" alt="Support">
+                        <span class="style-font">Support</span>
+                    </a>
+                    <a href="./login.html" class="d-flex">
+                        <img src="./images/login-icon.svg" alt="Login">
+                        <span class="style-font">Login</span>
+                    </a>
+                    <button class="btn-outline-white " onclick="window.location.href='./register.html'">
+                        <span class="font-medium">get Started</span>
+                        <img src="./images/arrow-btn.svg" alt="arrow">
+                    </button>
+                    <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                        <div class="div1"></div>
+                        <div class="div2"></div>
+                        <div class="div3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="background-generic">
+            <div class="background-generic-container">
+                <div class="d-flex align-items-center justify-content-center flex-column fx-head-texts">
+                    <h1 class="font-bold text-center text-capitalize">Order Now</h1>
+                </div>
+            </div>
+        </section>
+        <section class="steps-section">
+            <div class="steps-section-container px-90">
+                <div class="d-flex align-items-center  fx-steps-section">
+                    <div class="d-flex align-items-center fx-step active" step-number="1">
+                        <div class="number-step">
+                            <span class="font-bold">1</span>
+                        </div>
+                        <p class="font-medium mb-0">Select Domains</p>
+                    </div>
+                    <img src="./images/arrow-step.svg" alt="arrow step" class="arrow-step" step-number="2">
+                    <div class="d-flex align-items-center fx-step" step-number="2">
+                        <div class="number-step">
+                            <span class="font-bold">2</span>
+                        </div>
+                        <p class="font-medium mb-0">Configure Domains</p>
+                    </div>
+                    <img src="./images/arrow-step.svg" alt="arrow step" class="arrow-step" step-number="3">
+                    <div class="d-flex align-items-center fx-step" step-number="3">
+                        <div class="number-step">
+                            <span class="font-bold">3</span>
+                        </div>
+                        <p class="font-medium mb-0">Payment Information</p>
+                    </div>
+                    <img src="./images/arrow-step.svg" alt="arrow step" class="arrow-step" step-number="4">
+                    <div class="d-flex align-items-center fx-step" step-number="4">
+                        <div class="number-step">
+                            <span class="font-bold">4</span>
+                        </div>
+                        <p class="font-medium mb-0">You're all set!</p>
+                    </div>
+                </div>
+                <div class="data-steps order-steps">
+                    <div class="step-content" step-content="1">
+                        <div class="form-domain">
+                            <h2 class="font-bold text-center">Find your new domain name</h2>
+                            <div class="d-flex fxRadio-Pay">
+                                <div class="form-group">
+                                    <input type="radio" id="test1" name="radio-group" checked>
+                                    <label for="test1"><span class="font-medium">Use a domain already in my shopping
+                                            cart</span></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" id="test3" name="radio-group">
+                                    <label for="test3"><span class="font-medium">Register a new domain</span></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" id="test4" name="radio-group">
+                                    <label for="test4"><span class="font-medium">Transfer your domain from another
+                                            registrar</span></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="radio" id="test2" name="radio-group">
+                                    <label for="test2"><span class="font-medium">I will use my existing domain and
+                                            update my nameservers </span></label>
+                                </div>
+                            </div>
+                            <div class="d-flex fx-domain">
+                                <form action="">
+                                    <input type="text" class="input-domain font-medium" id="inputSearch"
+                                        placeholder="techzone.so">
+                                    <button class="font-bold ">Search Now</button>
+                                </form>
+                                <button class="btn-red">
+                                    <span class="font-bold">Checkout</span>
+                                    <img src="./images/arrow-btn.svg" alt="arrow-btn">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="d-flex boxs-stepOne">
+                            <div class="browse-extensions">
+                                <div class="box-browse-extensions">
+                                    <h2 class="font-bold">Browse extensions by category</h2>
+                                    <div class="d-flex align-items-start  flex-column list-browse-extensions">
+                                        <div
+                                            class="d-flex align-items-center justify-content-between item-browse-extensions item-red">
+                                            <p class="font-medium mb-0">Popular</p>
+                                            <span class="font-medium">(7) </span>
+                                        </div>
+                                        <div
+                                            class="d-flex align-items-center justify-content-between item-browse-extensions">
+                                            <p class="font-medium mb-0">Shopping</p>
+                                            <span class="font-medium">(2) </span>
+                                        </div>
+                                        <div
+                                            class="d-flex align-items-center justify-content-between item-browse-extensions">
+                                            <p class="font-medium mb-0">Novelty</p>
+                                            <span class="font-medium">(1) </span>
+                                        </div>
+                                        <div
+                                            class="d-flex align-items-center justify-content-between item-browse-extensions">
+                                            <p class="font-medium mb-0">Other</p>
+                                            <span class="font-medium">(2) </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn-red " id="btnContinue"
+                                    onclick="window.location.href='orderNow2.html'">
+                                    <span class="font-bold">Continue</span>
+                                    <img src="./images/arrow-btn.svg" alt="arrow-btn.">
+                                </button>
+                                <h2 class="font-bold text-center mt-2">1 domain added</h2>
+                            </div>
+                            <div class="domians-links">
+                                <div class="box-domians-links">
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium text-green">techzone.so | is available.</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red ">
+                                                <img src="./images/check-white.svg" alt="check-white">
+                                                <span class="font-ExtraBold text-uppercase">added</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium">nablustechzone.com</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red font-ExtraBold text-uppercase">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium">teck-zone.com</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red font-ExtraBold text-uppercase">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium">technologyzone.net</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red font-ExtraBold text-uppercase">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium">technologyzone.info</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red font-ExtraBold text-uppercase">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  justify-content-between fx-linkBox">
+                                        <p class="font-medium">teckzone.info</p>
+                                        <div class="d-flex fx-btns-domian">
+                                            <button class="font-ExtraBold text-uppercase btn-outline-black">$14.95
+                                                USD</button>
+                                            <button class="btn-red font-ExtraBold text-uppercase">Add To Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="href-suggestions font-medium">Give me more suggestions!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-four">
+            <div class="section-four-container px-80">
+                <d class="d-flex align-items-center fx-section-four">
+                    <div class="section-four-texts">
+                        <div class="d-flex align-items-center gap-2 fx-head-text" data-aos="fade-down"
+                            data-aos-easing="linear" data-aos-duration="1500">
+                            <span class="font-bold">Contact Us</span>
+                            <div class="line-white"></div>
+                        </div>
+                        <h1 class="font-bold text-capitalize subtitle-one" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">24/7 Customer Support Ready to Guide You Anytime, Anywhere!</h1>
+                        <p class="font-medium">Unlimited storage, unmetered bandwidth, unbeatable hosting.
+                            Techzone got ya covered.</p>
+                        <h1 class="font-bold text-capitalize subtitle-one" data-aos="fade-up" data-aos-easing="linear"
+                            data-aos-duration="1000">Affordable & Free Migration</h1>
+                        <p class="font-medium">We provide affordable shared web hosting for various packages. Transfer
+                            your websites to us for free as part of your
+                            plan with free domain registration.</p>
+                        <button class="btn-red" onclick="window.location.href=''">
+                            <span class=" font-medium">WhatsApp Now</span>
+                            <img src="./images/arrow-btn.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="section-four-img">
+                        <img src="./images/ContactUs_illustrator.svg" alt="ContactUs">
+                    </div>
+                </d>
+            </div>
+        </section>
+        <section class="section-three ">
+            <img src="./images/Grid-Header.svg" alt="Grid Header" class="grid-header">
+            <div class="section-three-container">
+                <div class="d-flex align-items-center gap-2 fx-head-text justify-content-center" data-aos="fade-down"
+                    data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="line-red"></div>
+                    <span class="font-bold color-red text-capitalize">Pricing Plans</span>
+                    <div class="line-red"></div>
+                </div>
+                <h1 class="font-bold text-capitalize subtitle-one text-center" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">Get the More Powerful With Techzone
+                    Website Hosting Plans</h1>
+                <div class="d-flex justify-content-center align-items-center tabs-cards">
+                    <button class="btn-red active font-medium" id="monthly-tab">Monthly</button>
+                    <button class="btn-red font-medium" id="yearly-tab">Yearly</button>
+                    <img src="./images/Save-25.svg" alt="Save 25%" class="Save-25">
+                </div>
+                <div class="tab-content" id="monthly-content">
+                    <div class="d-flex fx-cards-pay">
+                        <div class="card-pay active">
+                            <h4 class="font-medium">Basic</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$1.79/mo</h1>
+                                <span class="font-medium">-15%</span>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1 website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">5 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">10 GB Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Pro</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$1.99/mo</h1>
+                                <span class="font-medium">-15%</span>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">10 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">20 GB Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Master</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$2.99/mo</h1>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">75 website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">75 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Unlimited Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Expert</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$5.49/mo</h1>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">200 websites</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">200 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Unlimited Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="yearly-content">
+                    <div class="d-flex fx-cards-pay">
+                        <div class="card-pay active">
+                            <h4 class="font-medium">Basic</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$1.79/mo</h1>
+                                <span class="font-medium">-15%</span>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1 website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">5 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">10 GB Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Pro</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$1.99/mo</h1>
+                                <span class="font-medium">-15%</span>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">10 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">20 GB Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Master</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$2.99/mo</h1>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">75 website</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">75 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Unlimited Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                        <div class="card-pay">
+                            <h4 class="font-medium">Expert</h4>
+                            <div class="d-flex align-items-center fx-head-card">
+                                <h1 class="font-bold mb-0">$5.49/mo</h1>
+                            </div>
+                            <span class="font-medium">per user/month, billed annually</span>
+                            <p class="font-bold">Features</p>
+                            <div class="d-flex flex-column fx-check-points">
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">200 websites</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">200 GB SSD Storage</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Unlimited Bandwidth</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">1-Click App Installer</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free SSL</p>
+                                </div>
+                                <div class="d-flex align-items-center fx-check-point fx-general-card-st">
+                                    <img src="./images/check-move.svg" alt="check icon">
+                                    <p class="mb-0 font-medium">Free email</p>
+                                </div>
+                            </div>
+                            <button class="font-medium btn-outline-white">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="d-flex imgs-footer">
+            <img src="./images/img-footer1.png" alt="img">
+            <img src="./images/img-footer2.png" alt="img">
+            <img src="./images/img-footer3.png" alt="img">
+            <img src="./images/img-footer4.png" alt="img">
+        </div>
+        <div class="footer-container flex-column px-80">
+            <div class="d-flex fx-footer">
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part1">
+                    <a href="./index.html"><img src="./images/footer-logo.svg" alt="logo" class="footer-logo"></a>
+                    <h5 class="font-medium">Powering your online presence with seamless
+                        performance, robust reliability, and innovative
+                        features.</h5>
+                    <div class="d-flex align-items-center fx-info">
+                        <img src="./images/phone-icon.svg" alt="phone-icon">
+                        <p class="font-medium mb-0">+252 61 8601212 </p>
+                    </div>
+                    <div class="d-flex align-items-center fx-info">
+                        <img src="./images/email-icon.svg" alt="email-icon">
+                        <p class="font-medium mb-0">info@techzone.so</p>
+                    </div>
+                    <h3 class="font-bold">Social</h3>
+                    <h5 class="font-medium">We love being social. Follow us on social
+                        media.</h5>
+                    <div class="d-flex align-items-center fx-inks-footer">
+                        <a href=""><img src="./images/facebook-icon.svg" alt="facebook-icon"></a>
+                        <a href=""><img src="./images/twitter-icon.svg" alt="twitter-icon"></a>
+                        <a href=""><img src="./images/linkedin-icon.svg" alt="linkedin-icon"></a>
+                        <a href=""><img src="./images/youtube-icon.svg" alt="youtube-icon"></a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Social</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./aboutUs.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">About Us</span>
+                            </a>
+                            <a href="./privacyPolicy.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Privacy Policy </span>
+                            </a>
+                            <a href="./termsOfService.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Terms of Service</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Support</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./login.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Login Account</span>
+                            </a>
+                            <a href="./register.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Register Account </span>
+                            </a>
+                            <a href="./openTicket.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Submit Ticket</span>
+                            </a>
+                            <a href="./contactUs.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Support Center</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Hosting</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="./webHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Web Hosting</span>
+                            </a>
+                            <a href="./wordpressHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">WordPress Hosting </span>
+                            </a>
+                            <a href="./cloudHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Cloud Hosting</span>
+                            </a>
+                            <a href="./emailHosting.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Email Hosting</span>
+                            </a>
+                            <a href="./registerANewDomain.html">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Register a New Domain</span>
+                            </a>
+                            <a href="./transferDomainsToUs.html" class="bold">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Transfer Domains to Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column footer-part fx-general-card-st footer-part2">
+                    <div class="d-flex flex-column">
+                        <h3 class="font-bold">Products</h3>
+                        <div class="d-flex flex-column fx-links-footer">
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Healthcare</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime LMS</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime Restaurants</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">Prime Retail</span>
+                            </a>
+                            <a href="">
+                                <img src="./images/arrows-list.svg" alt="arrow" class="arrow">
+                                <span class="font-bold">CPM</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p class="">© All Copyright 2024 by Techzone</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/landingPage.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- Tabs Cards-->
+    <script src="./js/tabs-cards.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
+</body>
+
+</html>
