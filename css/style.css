@@ -858,6 +858,8 @@
     margin: auto;
     gap: 16px;
     margin-top: 75px;
+    position: relative;
+    z-index: 99;
 }
 .section-nine .dropdown-FAQ{
     border-radius: 16px;
