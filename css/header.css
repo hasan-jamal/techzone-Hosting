@@ -230,24 +230,27 @@ header .fx-header .links .links-part .list.active{
     font-size: 16px;
   }
 }
-@media (max-width:1300px) {
+@media (max-width:1396.36px) {
     header .fx-header .links .links-part{gap: 16px;}
-    header .fx-header .links .links-part a{font-size: 14px;}
+    header .fx-header .links .links-part a{font-size: 16px;}
     header .fx-header {gap: 70px;}
     header{padding: 1rem 28px 0 0.7rem;}
+      header .fx-header .links .links-part .list{top: 18px;padding: 10px 5px;}
 }
-@media (max-width:1150px) {
+@media (max-width:1228.8px) {
   header .fx-header .links{gap: 33px;width: 80%;}
   header .fx-header .logo-header{width: 20%;}
-  header .fx-header .links .links-part a{font-size: 13px;}
+  header .fx-header .links .links-part a{font-size: 14px;}
   header .fx-header .links .links-part{gap: 15px;}
   header .fx-header{gap: 60px;}
+  header .fx-header .links .links-part .list a{font-size: 13px;}
+  header .fx-header .links .links-part .list{top: 15px;padding: 10px 5px;}
 }
-@media (max-width:1000px) {
+@media (max-width:1024px) {
   header .fx-header .links .links-part1{display: none;}
   header .fx-header .links{justify-content: end;}
   header {padding: .8rem 18px 0 0.7rem;}
-  header .fx-header .links .links-part a{font-size: 13px;}
+  header .fx-header .links .links-part a{font-size: 12px;}
   header .fx-header .links .links-part2 a img{width: 15px;}
   .hamburger{display: block;}
 }
